@@ -1,9 +1,9 @@
 ---
 id: PR-001
-title: A relative whose passion is space
+title: Your uncle, a stargazer who worked at the CSA
 type: premise
 # idea | candidate | decided | built | parked
-status: idea
+status: decided
 # sender | player goal | story | tone | ending | other
 aspect: sender
 # Any related record IDs, e.g. [PZ-002, Q-004]
@@ -13,7 +13,11 @@ superseded_by:
 tags: []
 ---
 
-A relative sends the player an adventure backpack based on their passion: space.
+The sender is the player's **uncle**:
+- a stargazer
+- worked at the CSA (Canadian Space Agency) on technologies
+- currently on assignment in the North
+- made this backpack in his spare time, while working on a fun secret project (see Q-002)
 
-Topic: space discoveries, technologies and history.
+Topic of the backpack: space discoveries, technologies and history.
 This is a different game from the earlier "Space Station Aurora".
