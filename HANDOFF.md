@@ -2,6 +2,13 @@
 
 Update at the end of every session. Newest entry on top. Refer to records by ID.
 
+## 2026-09-26: brainstorm Q-002 (the secret project)
+- **Worked on:** Q-002, the uncle's secret project.
+- **Decided:** PR-004 (antigravity, and why he's in the North), PR-005 (fun, playful tone), PR-006 (ending: medallion + ticket), ST-005 (fifth era: the future), PP-003 (medallion). Q-002 answered.
+- **Candidates:** PP-004 (ticket to the Moon and beyond, no player name).
+- **Kit:** medallion added to GUIDE.md as the recurring final prize.
+- **Next step:** finalise the list of eras, or design the Space medallion front.
+
 ## 2026-09-26: brainstorm Q-001 (structure beats)
 - **Worked on:** Q-001, what form the structure beats take.
 - **Decided:** PR-001 (sender: the uncle). Q-001 answered: beats are eras of space history, no repeating object.
