@@ -18,3 +18,5 @@ tags: []
 Trading cards of space discoveries and technologies.
 The designer liked the idea (2026-09-26). Its role is not decided.
 One option on the table: a stats panel on the back that hides numbers for locks.
+
+One card in the set: Galileo, with the discovery dates used by PZ-001.
