@@ -1,9 +1,9 @@
 ---
 id: ST-001
-title: First telescopes
+title: Looking
 type: beat
 # idea | candidate | decided | built | parked
-status: idea
+status: decided
 # Position in the story: 1, 2, 3...
 order: 1
 # What the player sees it as (e.g. "Postcard 3")
@@ -17,4 +17,7 @@ superseded_by:
 tags: []
 ---
 
-An era in the history of space exploration (PR-002).
+Looking at the sky.
+- First Nations sky lore
+- Galileo
+- maybe some Newton

@@ -1,11 +1,11 @@
 ---
-id: ST-004
-title: Building
+id: ST-006
+title: Sending: the space race
 type: beat
 # idea | candidate | decided | built | parked
 status: decided
 # Position in the story: 1, 2, 3...
-order: 5
+order: 2
 # What the player sees it as (e.g. "Postcard 3")
 label:
 # What the player learns here
@@ -17,4 +17,6 @@ superseded_by:
 tags: []
 ---
 
-Building: the uncle's recent CSA work, like the Canadarm.
+Sending: the space race.
+- Sputnik
+- Alouette 1

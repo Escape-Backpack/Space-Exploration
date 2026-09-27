@@ -1,11 +1,11 @@
 ---
 id: ST-005
-title: The future: the uncle's antigravity project
+title: Beyond
 type: beat
 # idea | candidate | decided | built | parked
 status: decided
 # Position in the story: 1, 2, 3...
-order: 5
+order: 6
 # What the player sees it as (e.g. "Postcard 3")
 label:
 # What the player learns here
@@ -17,5 +17,5 @@ superseded_by:
 tags: []
 ---
 
-The fifth and last era: the future, the uncle's antigravity project (PR-004).
-It comes after the history eras ST-001 to ST-004 and leads to the final prize (PR-006).
+Beyond: the future, the uncle's antigravity project (PR-004).
+The last era. It leads to the final prize (PR-006).

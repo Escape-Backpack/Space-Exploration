@@ -1,6 +1,18 @@
 # Handoff
 
+## 2026-09-26: illustrated adventure cover
+- **Worked on:** public-facing Space Exploration cover art in the same backpack-on-a-table illustration family as Hiking.
+- **Built:** `brand/Space_Exploration_Backpack_Scene_v1.png`; asset record `AS-001` stores the exact ImageGen prompt and Hiking style reference. The scene shows an astronomy workshop and does not add a story location or puzzle.
+- **Checks:** `python ../backpack-kit/kit.py check` reported 18 records with no problems; `kit.py build` copied the asset into `site/files/`. The scene was visually reviewed with the other three covers on both local project listings.
+- **Next step:** no design decision needed for this cover. The adventure title remains a working title.
+
 Update at the end of every session. Newest entry on top. Refer to records by ID.
+
+## 2026-09-27: finalise the eras
+- **Worked on:** the list of eras.
+- **Decided:** six themed eras in chronological order: Looking (ST-001), Sending (ST-006), Going (ST-003), Exploring (ST-002), Building (ST-004), Beyond (ST-005). PR-002 decided.
+- **Also settled:** Going = Apollo and Artemis. A Canadian touch per era where possible (not required). Design label "Era"; players don't need a name for them.
+- **Next step:** design the first puzzle, so the play-test has something to play.
 
 ## 2026-09-26: brainstorm Q-002 (the secret project)
 - **Worked on:** Q-002, the uncle's secret project.

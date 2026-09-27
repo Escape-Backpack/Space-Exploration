@@ -3,7 +3,7 @@ id: PR-002
 title: The story follows the history of space exploration
 type: premise
 # idea | candidate | decided | built | parked
-status: candidate
+status: decided
 # sender | player goal | story | tone | ending | other
 aspect: story
 # Any related record IDs, e.g. [PZ-002, Q-004]
@@ -13,9 +13,19 @@ superseded_by:
 tags: []
 ---
 
-The backpack follows the history of space exploration in order, for example
-first telescopes, probes, manned missions..., with a bit of the uncle's own story
-at the end: his recent CSA work, like the Canadarm.
+The backpack follows the history of space exploration, ending with a bit of the uncle's
+own story: his recent CSA work, then his antigravity project.
 
-The eras are the structure beats (ST-001 to ST-004). The list isn't final.
-There's no repeating object per beat, unlike the Norse postcards.
+Six themed eras, in chronological order:
+1. Looking (ST-001)
+2. Sending: the space race (ST-006)
+3. Going (ST-003)
+4. Exploring (ST-002)
+5. Building (ST-004)
+6. Beyond (ST-005)
+
+There's no repeating object per era, unlike the Norse postcards.
+
+The eras are for design only. Players don't need a name for them.
+
+Where possible, each era gets a Canadian touch. Nice to have, not a requirement.

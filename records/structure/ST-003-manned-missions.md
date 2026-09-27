@@ -1,9 +1,9 @@
 ---
 id: ST-003
-title: Manned missions
+title: Going
 type: beat
 # idea | candidate | decided | built | parked
-status: idea
+status: decided
 # Position in the story: 1, 2, 3...
 order: 3
 # What the player sees it as (e.g. "Postcard 3")
@@ -17,4 +17,6 @@ superseded_by:
 tags: []
 ---
 
-An era in the history of space exploration (PR-002).
+Going: crewed missions.
+- Apollo
+- Artemis

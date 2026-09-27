@@ -1,11 +1,11 @@
 ---
 id: ST-002
-title: Probes
+title: Exploring
 type: beat
 # idea | candidate | decided | built | parked
-status: idea
+status: decided
 # Position in the story: 1, 2, 3...
-order: 2
+order: 4
 # What the player sees it as (e.g. "Postcard 3")
 label:
 # What the player learns here
@@ -17,4 +17,4 @@ superseded_by:
 tags: []
 ---
 
-An era in the history of space exploration (PR-002).
+Exploring: Voyager and other probes.
