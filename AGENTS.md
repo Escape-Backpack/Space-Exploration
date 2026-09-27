@@ -31,5 +31,7 @@ The kit is expected next to this repo, at `../backpack-kit`. If it's missing
 `git clone https://github.com/Escape-Backpack/backpack-kit ../backpack-kit`
 
 ## Preview
-- Online: https://escape-backpack.github.io/Space-Exploration/ (rebuilt about a minute after every push to main)
+- Online (once the Cloudflare migration is done): https://space-design.escapepack.ca/ (behind a login),
+  public hint page https://space-design.escapepack.ca/hints/ (QR link: https://escapepack.ca/space/hints).
+  Until then: https://escape-backpack.github.io/Space-Exploration/
 - Local: `python ../backpack-kit/kit.py serve`, then open http://localhost:8000/site/
