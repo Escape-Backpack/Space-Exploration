@@ -32,4 +32,5 @@ My recent assignment is so amazing, and it re-ignited my passion for space.
 I've been reading a lot about the history of it, and I've made this puzzle for you.
 Solve it to get an amazing surprise!
 
-*Back:* the northern sky with three Inuit constellations, each in a different colour (not drawn yet).
+*Back:* the northern sky with three Inuit constellations, each in a different colour (AS-002).
+Strap hole sits top-right of the tag, clear of the artwork's constellations.

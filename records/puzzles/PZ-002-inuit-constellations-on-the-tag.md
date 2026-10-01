@@ -18,7 +18,7 @@ difficulty: 1
 lock: 3-digit-colour
 answer:
 # Any related record IDs, e.g. [PZ-002, Q-004]
-links: [Q-005]
+links: [Q-005, AS-002]
 # Set to an ID when this record is replaced. It then moves to the Parked tab.
 superseded_by:
 tags: []
@@ -36,8 +36,12 @@ the sky map (PP-005), the magnifier (PP-006) and the uncle's note (PP-007).
 
 Chronologically first: Inuit sky knowledge comes before Galileo in the Looking era (ST-001).
 
-Open: which constellations and star counts (Q-005), and the lock's wheel colours
-(known once the lock is bought). The answer isn't set yet.
+The three constellations (Q-005): Tukturjuit ("the caribou", Big Dipper, 7 stars),
+Ullaktut ("the runners", Orion's Belt, 3 stars), Aagjuuk (Altair and Tarazed, 2 stars).
+Digits are 7-3-2, in whichever order matches the lock's wheel colours.
+
+Open: the lock's wheel colours (known once the lock is bought, Q-006). AS-002 draws the
+tag back with placeholder colours (red, blue, green) until then.
 
 ## Clue wording
 

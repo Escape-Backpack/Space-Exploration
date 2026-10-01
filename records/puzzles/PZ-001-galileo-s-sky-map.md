@@ -35,10 +35,15 @@ Teaches a bit of Galileo history, plays with "looking at the sky", and needs rea
 Not the first lock of the game: it needs equipment that has to be stored somewhere,
 for example behind an earlier lock (Q-003).
 
-Proposed, not confirmed: many decoy digits on ordinary stars too, so only the digits
-next to Galileo's objects count.
+Decided: many decoy digits on ordinary stars too (about 8-12), so only the digits next to
+Galileo's four objects count. Decoys blend into the sky map's natural clutter of stars,
+rather than reading as a deliberate grid. Digits stay tiny (~2pt, per PP-005), readable
+only under the magnifier (PP-006) - needs a real test print to confirm legibility at that size.
 
-Open: which four discoveries and dates (Q-004). The answer isn't set yet.
+The four discoveries (Q-004), in date order: Moon's mountains and craters (Nov 30, 1609),
+Jupiter's four moons (Jan 7, 1610), Saturn's triple form / rings (Jul 25, 1610), phases of
+Venus (Oct 1610). Each object's hidden digit is arbitrary; the dates only set the order
+the player arranges them in.
 
 ## Clue wording
 

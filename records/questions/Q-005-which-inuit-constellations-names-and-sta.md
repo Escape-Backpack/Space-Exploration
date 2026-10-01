@@ -3,13 +3,13 @@ id: Q-005
 title: Which Inuit constellations, names and star counts? (check sources)
 type: question
 # open | answered | parked
-status: open
+status: answered
 # Records this question is about, e.g. [PZ-003]
 about: [PZ-002, PP-008]
 # Leave empty while open
-answer:
+answer: "Tukturjuit (the caribou, Big Dipper, 7 stars), Ullaktut (the runners, Orion's Belt, 3 stars, hunters chasing the polar bear Nanurjuk), Aagjuuk (Altair and Tarazed, 2 stars, heralds the sun's midwinter return). Checked against MacDonald's The Arctic Sky and corroborating sources."
 # Any related record IDs, e.g. [PZ-002, Q-004]
-links: []
+links: [AS-002]
 # Set to an ID when this record is replaced. It then moves to the Parked tab.
 superseded_by:
 tags: []
