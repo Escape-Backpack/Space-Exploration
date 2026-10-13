@@ -3,7 +3,7 @@ id: PR-003
 title: Aim for 10 to 15 locks
 type: premise
 # idea | candidate | decided | built | parked
-status: candidate
+status: idea
 # sender | player goal | story | tone | ending | other
 aspect: other
 # Any related record IDs, e.g. [PZ-002, Q-004]
