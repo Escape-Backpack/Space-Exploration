@@ -1,6 +1,6 @@
 ---
 id: PP-008
-title: Luggage tag from the uncle
+title: First Card from the Uncle
 type: prop
 # idea | candidate | decided | built | parked
 status: decided
