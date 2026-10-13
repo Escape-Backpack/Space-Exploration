@@ -64,4 +64,3 @@ Right stub only: "ADVENTURE" then "COMPLETE".
 All words must be spelled exactly and readable, with deliberate spacing. Use simple legible lettering, confident title hierarchy, no complicated decorative scripts except the brief signature.
 Constraints: NO passenger/player name or name field; NO dates, times, gate, seat, terminal, prices, invented airline/company, numbers, serial code, barcode, QR code or extra text. NO rocket or spaceship because the uncle's antigravity craft design is not established. No watermark, no external logos. This is a playful invitation reward, not a puzzle or real travel document. Keep it visually charming and cohesive with the navy/yellow medallion.
 ```
-

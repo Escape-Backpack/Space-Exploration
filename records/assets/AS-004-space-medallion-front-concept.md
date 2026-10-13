@@ -51,4 +51,3 @@ Composition: strong emblem silhouette and clear negative spaces, fills the face 
 Materials/light: subtle matte filament surface and very restrained top-left lighting only to show low raised edges. Yellow is yellow plastic, not bronze or gold metal. Navy body remains clearly blue. Crisp face edges, no perspective tilt. This is a concept image, not manufacturing geometry.
 Constraints: NO text, letters, dates, numbers, labels, watermark, suspension loop, hole, chain, hands, packaging, mockup scene or extra medallions.
 ```
-

@@ -7,7 +7,7 @@ status: answered
 # Records this question is about, e.g. [PZ-003]
 about: [PZ-001, PP-005, PP-002]
 # Leave empty while open
-answer: "Four, in date order: Moon's mountains and craters (November 1609), Jupiter's four moons (January 1610), Saturn's strange appearance (July 1610), and confirmed phases of Venus (December 1610). Milky Way remains excluded."
+answer: Four, in date order: Moon's mountains and craters (November 1609), Jupiter's four moons (January 1610), Saturn's strange appearance (July 1610), and confirmed phases of Venus (December 1610). Milky Way remains excluded.
 # Any related record IDs, e.g. [PZ-002, Q-004]
 links: []
 # Set to an ID when this record is replaced. It then moves to the Parked tab.

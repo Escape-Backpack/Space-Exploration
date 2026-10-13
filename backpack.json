@@ -2,5 +2,12 @@
   "name": "Space Exploration",
   "beatLabel": "Era",
   "staleDays": 30,
-  "cipher": { "preset": "planets", "length": [4, 5], "decoys": 2 }
+  "cipher": {
+    "preset": "planets",
+    "length": [4, 5],
+    "decoys": 2
+  },
+  "studio": {
+    "slug": "space"
+  }
 }
