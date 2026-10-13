@@ -20,4 +20,5 @@ This backpack's medallion, the final prize (PR-006).
 Follows the kit's medallion standard (backpack-kit GUIDE.md): two-colour 3D print,
 dark blue body and yellow details, like the Norse medallion.
 
-Not decided yet: the front design for Space.
+Front design selected: AS-004. Digital print model and its test disk: AS-006.
+Physical printing and lettering legibility remain untested for the Space model.

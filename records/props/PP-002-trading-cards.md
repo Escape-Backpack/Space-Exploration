@@ -19,4 +19,7 @@ Trading cards of space discoveries and technologies.
 The designer liked the idea (2026-09-26). Its role is not decided.
 One option on the table: a stats panel on the back that hides numbers for locks.
 
-One card in the set: Galileo, with the discovery dates used by PZ-001.
+Earlier option: a Galileo card carrying some dates for PZ-001. That information
+split was superseded on 2026-10-05 by Q-007: all dates now go on PP-007.
+The general trading-card idea remains open for other uses; no card is required
+for the current Galileo puzzle.

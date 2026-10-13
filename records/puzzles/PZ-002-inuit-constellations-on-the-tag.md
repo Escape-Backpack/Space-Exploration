@@ -14,8 +14,8 @@ needs: []
 mechanic: counting
 # 1 (easy) to 3 (hard)
 difficulty: 1
-# Lock it opens: 3-digit | 4-digit | 4-letter | 3-digit-colour (blank if none)
-lock: 3-digit-colour
+test_status: untested
+publish_hints: no
 answer:
 # Any related record IDs, e.g. [PZ-002, Q-004]
 links: [Q-005, AS-002]
@@ -27,7 +27,7 @@ tags: []
 ## How it works
 The first lock of the game.
 
-The back of the luggage tag (PP-008) shows the northern sky with three Inuit constellations,
+The front of the luggage tag (PP-008) shows the northern sky with three Inuit constellations,
 each drawn in the colour of one wheel of the 3-digit colour lock. The number of stars in
 each colour gives that wheel's digit. The colours set the order, so no instructions are needed.
 
@@ -41,8 +41,11 @@ Ullaktut ("the runners", Orion's Belt, 3 stars), Aagjuuk (Altair and Tarazed, 2 
 Digits are 7-3-2, in whichever order matches the lock's wheel colours.
 
 Open: the lock's wheel colours (known once the lock is bought, Q-006). AS-002 draws the
-tag back with placeholder colours (red, blue, green) until then.
+tag front with placeholder colours (red, blue, green) until then.
+The former back designation was superseded by the designer on 2026-10-05.
 
 ## Clue wording
+PP-008 holds the approved welcome note on the reverse, alongside a vintage
+telescope sketch. No explicit counting instruction or telescope mechanism is added.
 
 ## Hints

@@ -1,6 +1,6 @@
 ---
 id: AS-002
-title: Luggage tag back - Inuit constellations
+title: Luggage tag front - Inuit constellations
 type: asset
 # idea | candidate | decided | built | parked
 status: built
@@ -18,6 +18,12 @@ links: [PZ-002, Q-005]
 superseded_by:
 tags: []
 ---
+
+## Current face assignment
+On 2026-10-05 the designer assigned the existing star artwork to the **front**
+of PP-008, with the welcome and telescope on the back. This supersedes the earlier
+back designation. Artwork and filenames are unchanged to preserve links.
+The generation prompts below retain their original historical wording.
 
 Placeholder colours (red, blue, green) stand in for the 3-digit colour lock's real wheel colours,
 not yet known (Q-006, backpack not bought). Swap the colours in the prompt once those are set;
