@@ -1,6 +1,6 @@
 ---
 id: PP-006
-title: Magnifier
+title: Magnifier - Fresnel Card
 type: prop
 # idea | candidate | decided | built | parked
 status: candidate
