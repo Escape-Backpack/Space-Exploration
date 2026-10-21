@@ -137,3 +137,30 @@ User asked the counts in these Ojibwe constellations. No replacement selected ye
 Original RASC source: https://www.rasc.ca/sites/default/files/World%20Asterisms%20Project%20Handbook%20V%202024.4.pdf
 Original booklet: https://www.nativeskywatchers.com/articles/Booklet-Ojibwe-10-23-20-v9-screen-version.pdf
 Read-only downloaded references/renders in C:/EscapeBackpack/tmp/ojibwe-count-review/.
+
+
+## User-proposed Dine trio - 2026-10-21 (candidate)
+User proposes Nahookos Bi'aad (Female Revolving One / Cassiopeia, five-star W),
+Dilyehe (Pleiades, seven plotted stars), and Atse Ets'ozi (First Slender One / Orion,
+exact membership explicitly unconfirmed). Treat the user's supplied RA 0h-6h region
+as a proposed common-chart sector, not approval of a final three-digit answer.
+
+Primary-source check:
+- Nancy C. Maryboy / Indigenous Education Institute, A Guide to Navajo Astronomy,
+  https://nhmu.utah.edu/sites/default/files/attachments/D.10.NavajoSkies.pdf , pp.8-11,
+  confirms the three associations. It explicitly warns Western equivalents are
+  approximate and Dine groups may be larger/smaller. It does not give point-by-point
+  star memberships/counts for Female Revolving One or First Slender One. Do not
+  assume the Cassiopeia W or an arbitrary belt/sword selection is the full Dine figure.
+- The IEI / Native Skywatchers Dine booklet uses "includes Cassiopeia" and "includes
+  Orion": https://www.nativeskywatchers.com/articles/Two%20Eyed%20Seeing%20Dine%20Booklet-final-screen-version-linked.pdf .
+- NASA's Pleiades guide says observers may see only five or six stars:
+  https://nightsky.jpl.nasa.gov/media/documents/resources/DiscoveryMarchred.pdf .
+  A seven-star printed selection can be made explicit, but is not a guaranteed
+  naked-eye count or the total membership of this cluster.
+
+Assessment for discussion: this is a more coherent RA sector and a single named
+tradition, but Cassiopeia lies well north of Pleiades/Orion, so it is not a narrow
+sky strip. Promising candidate trio; counts and exact sourced outlines need defining
+before art/cutouts. No final 5-7-3/7 answer, revised chart, names/spellings, dates or
+mask geometry approved in this turn.
