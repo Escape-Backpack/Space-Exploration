@@ -1,19 +1,39 @@
 ---
 id: Q-005
-title: Which Inuit constellations, names and star counts? (check sources)
+title: Opening constellation selection and star counts
 type: question
 # open | answered | parked
 status: answered
 # Records this question is about, e.g. [PZ-003]
 about: [PZ-002, PP-008]
 # Leave empty while open
-answer: Tukturjuit (the caribou, Big Dipper, 7 stars), Ullaktut (the runners, Orion's Belt, 3 stars, hunters chasing the polar bear Nanurjuk), Aagjuuk (Altair and Tarazed, 2 stars, heralds the sun's midwinter return). Checked against MacDonald's The Arctic Sky and corroborating sources.
+answer: Lyra 6, Cygnus 9, Aquila 8 plotted outline stars; Indigenous naming is not required for this puzzle. Selected by the designer on 2026-10-21.
 # Any related record IDs, e.g. [PZ-002, Q-004]
 links: [AS-002]
 # Set to an ID when this record is replaced. It then moves to the Parked tab.
 superseded_by:
 tags: []
 ---
+
+## Current selection - 2026-10-21
+The designer chose **Lyra (6), Cygnus (9), and Aquila (8)**. Inuit or First Nations
+naming is explicitly not required for this puzzle. This supersedes the earlier
+selected Inuit trio and the subsequent Ojibwe/Dine candidates below.
+
+These are chosen outline-node counts, not totals of all stars within IAU constellation
+boundaries. The designer permits dropping iota/kappa Cygni if needed for margin; the
+current chart retains both to preserve the selected nine-star count. Removing both
+would make seven and require an explicit count/code update. Final dates/order remain
+open (Q-009); do not assume that listing Lyra/Cygnus/Aquila establishes code 698.
+
+AS-014 supplies a coloured common-scale reference chart. Its exact HIP membership
+and connecting edges live in assets/lyra-cygnus-aquila-v1/selected-stars-v1.json.
+Close multiple-star systems are represented as single plotted nodes. The earlier
+catalogue source is retained. No Indigenous figure is being relabelled as this trio.
+The new cutouts and unhighlighted player chart still need construction/testing.
+
+## Earlier selection and research - retained history
+
 
 **Scope updated 2026-10-21:** the designer explicitly allows First Nations as well
 as Inuit constellations. The earlier Inuit-only preference is superseded. The selected

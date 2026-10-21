@@ -13,7 +13,12 @@ superseded_by:
 tags: []
 ---
 
-## First print prototype - 2026-10-21
+## Current mask direction - 2026-10-21
+Rebuild the three masks for the current constellation selection in Q-005 and the
+common chart geometry in AS-014. The existing Inuit mask sheet described below is
+superseded and will not fit this chart. No new dimensions or unique-fit test chosen yet.
+
+## Earlier Inuit prototype - retained history
 Three opaque cards, one per selected constellation (Q-005). Each card is 300 x 180 pt
 (4 1/6 x 2.5 inches), with one large counting window and three separate small circular
 alignment holes (12 pt diameter, about 4.23 mm). One letter-size sheet holds all three.

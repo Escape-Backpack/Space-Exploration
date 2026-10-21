@@ -13,7 +13,12 @@ superseded_by:
 tags: []
 ---
 
-## First print prototype - 2026-10-21
+## Current chart direction - 2026-10-21
+AS-014 shows the selected Lyra/Cygnus/Aquila outlines on one common-scale chart.
+This coloured reference reveals the target groups; an unhighlighted player chart
+is still to be generated. Earlier three-field Inuit materials below are history.
+
+## Earlier Inuit prototype - retained history
 One US-letter portrait sheet (8.5 x 11 inches), with three enlarged star fields. It is
 an observation reference atlas, not a depiction of a simultaneous sky from a particular
 place/date. Each field uses a single gnomonic projection and rigid rotation; all stars
