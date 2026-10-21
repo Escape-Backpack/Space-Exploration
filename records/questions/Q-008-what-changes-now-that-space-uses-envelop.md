@@ -15,6 +15,14 @@ superseded_by:
 tags: []
 ---
 
+## Current update - 2026-10-21
+The designer chose direct answer codes on envelopes, without a cipher (PR-008),
+and repeating 4 x 6 inch sky observation pages (PP-010). The stacking finale is a
+candidate; its reveal mechanism is open. The old planet-symbol proposal below is
+superseded. The configuration still needs migration before producing envelope labels.
+This question stays open for the remaining opening, packaging and code-format decisions.
+
+## Earlier migration notes - retained for context
 On 2026-10-12 the designer switched Space Exploration from locks in a backpack to marked
 envelopes in a board-game box, with one lookup cipher per adventure. The migration only
 renamed fields (found_in became envelope; lock fields were removed). These design points

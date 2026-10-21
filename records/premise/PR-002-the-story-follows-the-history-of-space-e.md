@@ -24,7 +24,9 @@ Six themed eras, in chronological order:
 5. Building (ST-004)
 6. Beyond (ST-005)
 
-There's no repeating object per era, unlike the Norse postcards.
+**Updated 2026-10-21:** sky observation pages are the repeating document (PP-010).
+The earlier statement, "There's no repeating object per era, unlike the Norse postcards,"
+is superseded. The number and distribution of pages are not yet decided.
 
 The eras are for design only. Players don't need a name for them.
 
