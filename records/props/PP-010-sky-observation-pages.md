@@ -2,7 +2,7 @@
 id: PP-010
 title: Sky observation pages
 type: prop
-status: candidate
+status: decided
 form: printed
 source: print
 envelope:
@@ -18,9 +18,9 @@ The repeating document is a simple sky observation page, with lots of space for 
 uncle's notes and drawings. Target size: **4 x 6 inches**. This replaces the former
 no-repeating-object direction in PR-002. Page count and distribution are open.
 
-## First layout proposal
-AS-010 is a blank portrait draft: 4 inches wide, 6 inches tall. Portrait orientation
-is an assistant proposal, not yet selected by the designer.
+## Selected layout - 2026-10-21
+The designer selected AS-010 ("Good let's use that"): a blank portrait page,
+4 inches wide and 6 inches tall, with the following layout.
 - Small SKY OBSERVATIONS heading in IBM Plex Mono Medium, 12 pt.
 - Date and Time share one row; Location occupies the next. Labels are 8.5 pt.
 - Quarter-inch side margins, thin grey rules, dark grey text on unprinted white paper.
@@ -29,8 +29,9 @@ is an assistant proposal, not yet selected by the designer.
 - Actual uncle writing and sketches will follow PR-007; the typeset heading and field
   labels are a printed form, not a substitute for his selected handwriting.
 
-The draft is for layout review only. Exact fields, orientation, paper stock and final
-artwork are not approved. No observation content or new puzzle answers have been invented.
+The blank layout, orientation and fields are selected. Paper stock, individual page
+content and meta-puzzle artwork remain open. No observation content or new puzzle
+answers have been invented.
 
 ## Candidate final meta puzzle
 The designer suggested small lines on successive observation pages that reveal a

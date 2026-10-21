@@ -2,7 +2,7 @@
 id: AS-010
 title: Sky observation page layout - 4 x 6 inch draft
 type: asset
-status: candidate
+status: decided
 kind: print
 for: PP-010
 tool: ReportLab / Poppler
@@ -28,3 +28,7 @@ are embedded. The letter sheet puts all instructions and crop marks outside the 
 Both PDFs have one page. Exact-size media box: 288 x 432 pt; letter media box: 612 x 792 pt.
 Expected header and field text extracted successfully. Both pages were rendered with
 Poppler and visually reviewed: no overlap or clipping. No physical print or puzzle test.
+
+## Selection - 2026-10-21
+The designer selected this layout for use. Existing files keep their draft filenames
+for link stability; the blank layout is approved, with no physical print or puzzle test.

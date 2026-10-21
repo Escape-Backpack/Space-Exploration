@@ -24,7 +24,23 @@ superseded_by:
 tags: []
 ---
 
-## How it works
+## Current candidate - 2026-10-21
+The designer proposes retaining constellation counting as the opening puzzle. A text
+card would describe three Indigenous constellations, possibly with helper drawings;
+players identify the groups, count their stars, and put the counts in order from oldest
+recorded to newest, if reliable dates can be found. This is a proposal, not a final rule.
+
+**Later on 2026-10-21:** the designer accepted ordering by the uncle's own dated
+observations, earliest to latest (Q-009). These are fictional story observations, not
+historical discovery dates. Exact dates and resulting code remain open.
+
+Q-009 records the earlier historical-ordering research gap. The prior candidates are specifically Inuit
+(Q-005); whether those exact three remain selected is open. PP-010 is now the selected
+observation-page format, but the text card/sky image arrangement has not been decided.
+The answer would directly identify an envelope (PR-008). No exact observation dates, final answer, clue text, new artwork, prop relationship
+or physical test is established by this discussion.
+
+## Earlier lock mechanism - superseded format, retained for reference
 The first lock of the game.
 
 The front of the luggage tag (PP-008) shows the northern sky with three Inuit constellations,
