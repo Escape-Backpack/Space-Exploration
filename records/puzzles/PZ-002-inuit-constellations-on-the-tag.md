@@ -7,7 +7,7 @@ status: decided
 # The structure beat this puzzle belongs to (one ID)
 beat: ST-001
 # Props the player needs, e.g. [PP-001]
-props: [PP-008]
+props: [PP-011, PP-012, PP-010]
 # Puzzles that must be solved first, e.g. [PZ-002]
 needs: []
 # cipher | physical | search | logic | wordplay | other
@@ -35,8 +35,22 @@ bearing that answer directly (PR-008).
 The mechanism is decided, but it has not been built or tested. Exact observation dates,
 final code, chart, cutout geometry, alignment cues and print sizes remain open. The
 observation-page format is PP-010. Do not infer that all three cutout pieces must share
-its dimensions. Current prop relationships still reflect the earlier first-card version
-and must be updated when the chart/cutout props are defined.
+its dimensions. The prototype chart/mask props are PP-011 and PP-012, available at the start.
+PP-010 supplies the eventual dated observation note; that note is still unwritten.
+PP-008 is the welcome card and is no longer the counting surface in this version.
+
+## Current chart/cutout prototype - 2026-10-21
+Requested first printable design is now PP-011 / PP-012, with player PDFs AS-011 and
+AS-012, and designer-only review AS-013. Three independently enlarged catalogue-based
+fields fit on one letter sheet. Each mask matches three visibly ringed reference stars;
+its large window exposes the constellation stars to count. The prop and asset records
+hold specifications and digital checks. Geometry is not a physical playtest.
+
+The first arbitrary-star alignment attempt was ambiguous, leading to the visibly ringed
+reference-star prototype. Current geometry passes unique-placement/count checks. This
+specification is candidate for designer review; it is not a newly fixed art constraint.
+The dated observation note and final code order remain open. The global kit still has
+its old planet cipher configuration (PR-008); no labels are produced from it here.
 
 ## Prototype requirements
 - One convincing correct placement per piece; verify this on the actual chart.
@@ -55,8 +69,8 @@ example involving Polaris and a degree band was illustrative, not a checked sky 
 ## Earlier comparison - retained for context
 The two proposals were verbal descriptions using a chart grid and named reference stars,
 or constellation-window pieces positioned over chart stars. The cutout approach was
-selected for the opening; the description approach moved to PZ-004. Neither has yet
-received final chart artwork or physical testing.
+selected for the opening; the description approach moved to PZ-004. The cutout branch now has candidate chart/mask artwork above; neither branch has
+physical playtest evidence.
 
 ## Earlier lock mechanism - superseded format, retained for reference
 The first lock of the game.
