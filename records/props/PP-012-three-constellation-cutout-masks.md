@@ -14,9 +14,26 @@ tags: []
 ---
 
 ## Current mask direction - 2026-10-21
-Rebuild the three masks for the current constellation selection in Q-005 and the
-common chart geometry in AS-014. The existing Inuit mask sheet described below is
-superseded and will not fit this chart. No new dimensions or unique-fit test chosen yet.
+The designer supplied a drawing showing openings roughly following each constellation's
+silhouette. Reference copied unchanged to
+source/star-chart-v1/Designer_Shaped_Window_Reference_2026-10-21.png.
+
+Use a shaped counting window with marked corners/edge positions that must align to
+stars. This replaces the earlier proposed separate three-hole/ringed-star interface
+for the current Lyra/Cygnus/Aquila version. The marked positions should have one
+matching star each. Exactly one valid placement per piece is a design requirement,
+not a tested property. Number of marks, exact outlines, tolerances and print sizes
+remain open. The chart needs more surrounding stars (PP-011).
+
+Assistant recommendations for discussion: use a few widely separated, non-collinear
+alignment marks instead of marking every answer star; all required marks must fit at
+the same time. Ensure all target stars remain fully inside the window and no other
+star dots are visible at the intended position. Keep the opening wide enough for
+counting and hand cutting. **Designer decision, later 2026-10-21:** Aquila has one continuous opening with no
+paper island or bridge. The chart must contain no printed star dots inside its central
+triangular area; the eight selected answer stars remain visible along the pattern.
+This replaces the bridge/open-interior choice. Exact outlines are still to be built.
+The earlier Inuit mask sheet below is retained history and does not fit AS-014.
 
 ## Earlier Inuit prototype - retained history
 Three opaque cards, one per selected constellation (Q-005). Each card is 300 x 180 pt

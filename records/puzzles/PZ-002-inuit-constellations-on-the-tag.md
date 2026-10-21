@@ -39,6 +39,14 @@ its dimensions. The prototype chart/mask props are PP-011 and PP-012, available 
 PP-010 supplies the eventual dated observation note; that note is still unwritten.
 PP-008 is the welcome card and is no longer the counting surface in this version.
 
+## Shaped-window direction - 2026-10-21
+Designer proposes windows shaped roughly around each constellation, with marked corners
+that must each align to a star, and a fuller background star field. PP-012 stores the
+reference and current design notes; PP-011 stores the background-chart requirement.
+The separate alignment holes and specially ringed chart stars of the old interface
+are superseded for this direction. Unique placement is required but not yet verified.
+Current target counts and dated-observation ordering are unchanged.
+
 ## Current revision - 2026-10-21
 AS-014 is the new coloured reference chart, with all groups on one common-scale
 projection. Counts and retained Cygnus tips are specified in Q-005. Indigenous

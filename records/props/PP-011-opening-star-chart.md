@@ -18,6 +18,22 @@ AS-014 shows the selected Lyra/Cygnus/Aquila outlines on one common-scale chart.
 This coloured reference reveals the target groups; an unhighlighted player chart
 is still to be generated. Earlier three-field Inuit materials below are history.
 
+## Fuller player chart requested - 2026-10-21
+Designer requests additional stars around the selected outlines for the shaped-window
+mechanism in PP-012. Select more actual catalogue neighbours where practical. The
+coloured reference AS-014 remains a review aid; the player chart should not disclose
+the target outlines with coloured stars/connecting lines. Background density and
+alignment uniqueness must be checked together; added stars can introduce near-matches
+or unintended visible stars. No revised chart has been built/tested in this discussion.
+
+## Aquila interior - designer decision, 2026-10-21
+The central triangular area inside Aquila's silhouette must have no printed background
+star dots, so PP-012 can use one continuous opening without an island or bridge. Keep
+all eight selected target nodes. Omit background catalogue stars from this area rather
+than relocating them: the chart is an explicitly selected-star diagram, not a complete
+survey of the real sky. Verify the entire final window exposes exactly eight dots.
+No chart geometry or counts have been retested in this discussion.
+
 ## Earlier Inuit prototype - retained history
 One US-letter portrait sheet (8.5 x 11 inches), with three enlarged star fields. It is
 an observation reference atlas, not a depiction of a simultaneous sky from a particular
