@@ -115,3 +115,25 @@ Attribute each name/story to its source nation and version. The same Western sta
 can carry different Indigenous interpretations; those are alternative identifications,
 not additional separate patterns to count on the chart. No new three-group selection,
 star counts, chronology, answer or artwork adopted in this discussion.
+
+
+## Mooz, Ajiijaak and Maang counts - 2026-10-21
+User asked the counts in these Ojibwe constellations. No replacement selected yet.
+- Maang: 7, explicitly stated in Annette Lee's published Ojibwe/Dakota sky-map research
+  (https://escholarship.org/content/qt58m4f9pq/qt58m4f9pq.pdf) and Zhaawano Giizhik's
+  own account of Maang (https://www.zhaawanart.com/post/ojibwe-anishinaabe-stars-planets-part-2-j-to-z).
+- Ajiijaak: 9, explicitly described as a nine-star constellation in Zhaawano Giizhik's
+  own Ojibwe star-map account (https://www.zhaawanart.com/post/star-stories-part-9-ojibwe-star-map).
+- Mooz: no single total stated in the Native Skywatchers fall booklet. RASC World
+  Asterisms Project handbook v2024.4, pp.1026-1027, describes a basic outline yielding
+  14 distinct stars: 4 Great Square stars + zeta Pegasi + lambda/kappa Pegasi + eta
+  Pegasi + 6/2/5/4/alpha/beta Lacertae. This 14 is our count of that particular described
+  outline, not a universal cultural count or a verified total for all illustrated variants.
+  The Native Skywatchers booklet also points out bell and heart stars beyond its body,
+  legs, head and antlers. Its body alone is explicitly 4 stars. Before making a puzzle,
+  select the exact star membership/outline. Do not silently label the 4-star body as
+  the whole Mooz, or call the full booklet illustration 14 without verification.
+
+Original RASC source: https://www.rasc.ca/sites/default/files/World%20Asterisms%20Project%20Handbook%20V%202024.4.pdf
+Original booklet: https://www.nativeskywatchers.com/articles/Booklet-Ojibwe-10-23-20-v9-screen-version.pdf
+Read-only downloaded references/renders in C:/EscapeBackpack/tmp/ojibwe-count-review/.
