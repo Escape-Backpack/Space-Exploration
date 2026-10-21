@@ -1,9 +1,9 @@
 ---
 id: PZ-002
-title: Inuit constellations on the tag
+title: Inuit constellation cutouts
 type: puzzle
 # idea | candidate | decided | built | parked
-status: candidate
+status: decided
 # The structure beat this puzzle belongs to (one ID)
 beat: ST-001
 # Props the player needs, e.g. [PP-001]
@@ -24,21 +24,39 @@ superseded_by:
 tags: []
 ---
 
-## Current candidate - 2026-10-21
-The designer proposes retaining constellation counting as the opening puzzle. A text
-card would describe three Indigenous constellations, possibly with helper drawings;
-players identify the groups, count their stars, and put the counts in order from oldest
-recorded to newest, if reliable dates can be found. This is a proposal, not a final rule.
+## Selected opening mechanism - 2026-10-21
+The designer chose the **cutout approach for the first puzzle**. Players use three
+window pieces on a star chart, one each for the selected Inuit constellations (Q-005):
+Aagjuuk, Tukturjuit and Ullaktut. Marked positions align with stars; each piece should
+have exactly one correct placement. Players count the stars exposed in each window.
+Order the counts by the uncle's own dated observations (Q-009), then open the envelope
+bearing that answer directly (PR-008).
 
-**Later on 2026-10-21:** the designer accepted ordering by the uncle's own dated
-observations, earliest to latest (Q-009). These are fictional story observations, not
-historical discovery dates. Exact dates and resulting code remain open.
+The mechanism is decided, but it has not been built or tested. Exact observation dates,
+final code, chart, cutout geometry, alignment cues and print sizes remain open. The
+observation-page format is PP-010. Do not infer that all three cutout pieces must share
+its dimensions. Current prop relationships still reflect the earlier first-card version
+and must be updated when the chart/cutout props are defined.
 
-Q-009 records the earlier historical-ordering research gap. The prior candidates are specifically Inuit
-(Q-005); whether those exact three remain selected is open. PP-010 is now the selected
-observation-page format, but the text card/sky image arrangement has not been decided.
-The answer would directly identify an envelope (PR-008). No exact observation dates, final answer, clue text, new artwork, prop relationship
-or physical test is established by this discussion.
+## Prototype requirements
+- One convincing correct placement per piece; verify this on the actual chart.
+- Give special attention to Aagjuuk: matching just two stars may permit other placements.
+- A main window should require counting chart stars. One separate hole per answer star
+  risks making the chart unnecessary because players could count the holes.
+- Determine front/back orientation, whether pieces can rotate, and readable alignment
+  tolerance before printing. No final alignment design or numerical tolerance is chosen.
+- Test the physical print and cut pieces. Status decided does not mean passed.
+
+## Alternative retained for later
+The designer wants the descriptive approach retained for a later puzzle. Its current
+idea record is PZ-004; it is no longer an alternative for this opening. The earlier
+example involving Polaris and a degree band was illustrative, not a checked sky position.
+
+## Earlier comparison - retained for context
+The two proposals were verbal descriptions using a chart grid and named reference stars,
+or constellation-window pieces positioned over chart stars. The cutout approach was
+selected for the opening; the description approach moved to PZ-004. Neither has yet
+received final chart artwork or physical testing.
 
 ## Earlier lock mechanism - superseded format, retained for reference
 The first lock of the game.

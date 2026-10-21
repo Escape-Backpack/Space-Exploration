@@ -59,3 +59,9 @@ Recommendation for discussion: keep Aagjuuk, Tukturjuit and Ullaktut as a well-d
 introductory trio with distinct candidate counts (2, 7, 3). No order, dates or answer
 changed; user selection remains open. Source-dependent star membership and spelling must
 be checked against the final community-specific version before art production.
+
+
+## Designer selection - 2026-10-21
+The designer confirmed the trio: Aagjuuk, Tukturjuit and Ullaktut ("Ok let's use those").
+This selects the star groups; it does not establish a popularity ranking. The opening
+mechanism is still being compared in PZ-002. Observation dates and code order remain open.
