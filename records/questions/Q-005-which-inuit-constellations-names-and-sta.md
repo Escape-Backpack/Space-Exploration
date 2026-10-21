@@ -15,7 +15,10 @@ superseded_by:
 tags: []
 ---
 
-Inuit sky knowledge only (not a mix of nations), for the North connection.
+**Scope updated 2026-10-21:** the designer explicitly allows First Nations as well
+as Inuit constellations. The earlier Inuit-only preference is superseded. The selected
+Inuit trio remains the existing reference, not an exclusive constraint on new candidates.
+Replacement groups and whether the chart combines traditions are not yet selected.
 Candidates from the 2026-09-27 brainstorm, all to check against sources before use:
 - Tukturjuit, "the caribou" (the stars of the Big Dipper)
 - Ullaktut, "the runners" (Orion's belt, hunters chasing a bear)
@@ -65,3 +68,50 @@ be checked against the final community-specific version before art production.
 The designer confirmed the trio: Aagjuuk, Tukturjuit and Ullaktut ("Ok let's use those").
 This selects the star groups; it does not establish a popularity ranking. The opening
 mechanism is still being compared in PZ-002. Observation dates and code order remain open.
+
+
+## Nearby groups around Tukturjuit - 2026-10-21
+User asked about other Inuit constellations near Tukturjuit. No replacement selected.
+Checked the official Stellarium Inuit skyculture dataset, an adaptation of MacDonald's
+research, against the existing HYG positions. Two useful closer groups in that documented
+selection are Sivulliik (Arcturus and Muphrid, 2 stars) and Quturjuuk (Capella, Menkalinan,
+Castor and Pollux, 4 stars). Their nearest member-star distances from any of the seven
+Tukturjuit stars are approximately 31 and 43 degrees respectively, computed using great-
+circle separation of catalogue RA/declination. These are nearest-member distances,
+not constellation-centre distances or a claim of an exhaustive Inuit grouping catalogue.
+For comparison, the selected Aagjuuk and Ullaktut groups are about 82 and 86 degrees away
+by the same measure. Thus Tukturjuit/Sivulliik/Quturjuuk is an option for a tighter chart;
+no new trio, final counts/code, artwork or rule adopted.
+
+Nuuttuittuq (Polaris) is also a useful nearby reference but is one star, not a multi-star
+constellation. The Igloolik Oral History Project describes its role separately.
+
+Sources:
+- https://raw.githubusercontent.com/Stellarium/stellarium-skycultures/master/inuit/index.json
+- https://raw.githubusercontent.com/Stellarium/stellarium-skycultures/master/inuit/description.md
+- https://www.anijaarniq.com/stars
+- Existing local HYG v4.1 subset (source/star-chart-v1/bright-stars-hyg-v41.json).
+
+
+## First Nations options allowed - 2026-10-21
+Designer: "we don't have to stick to Inuit, we can use First Nations constellations as
+well, they might be more numerous." Expanded research beyond the previously Inuit-only
+selection. No claim verified that one tradition has more constellations than another.
+
+Useful source bases:
+- Wilfred Buck's own [Ininiw Acakosuk article](https://canadiangeographic.ca/articles/ininiw-acakosuk-the-cree-stars/)
+  presents 16 Ininiw constellations on its map. It describes Mista Muskwa (Big Bear)
+  with the Big Dipper and Tepakoop Pinesisuk (Seven Birds) with Corona Borealis.
+- [MFNERC First Nations Astronomy](https://mfnerc.org/learning-hub/first-nations-astronomy/)
+  provides a Wilfred Buck presentation as further primary teaching material.
+- [Native Skywatchers' Ojibwe booklet](https://www.nativeskywatchers.com/articles/Booklet-Ojibwe-10-23-20-v9-screen-version.pdf)
+  and its research table identify Ojiig/Fisher with the Big Dipper, Maang/Loon with
+  the Little Dipper, and Ajiijaak/Crane with Cygnus. These are research candidates,
+  not new selected chart geometry or validated puzzle star counts.
+
+Assistant recommendation: select groups that fit one compact chart, have clear bounded
+star membership and varied single-digit counts, and can be matched by distinct cutouts.
+Attribute each name/story to its source nation and version. The same Western star group
+can carry different Indigenous interpretations; those are alternative identifications,
+not additional separate patterns to count on the chart. No new three-group selection,
+star counts, chronology, answer or artwork adopted in this discussion.
