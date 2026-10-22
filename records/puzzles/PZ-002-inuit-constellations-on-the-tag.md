@@ -24,6 +24,13 @@ superseded_by:
 tags: []
 ---
 
+## Plain board and simultaneous frames - 2026-10-21
+Designer requests plain square AS-021 board and simultaneous narrow AS-024 frames.
+Pairings now come from the uncle note AS-022; the frames only say MAIN STAR. Count
+mechanism and Q-005 target counts unchanged. AS-023 documents preparation and fit.
+Date ordering remains Q-009; exact dates/code remain open. Physical test_status stays
+untested. Older rectangular print editions are superseded.
+
 ## Finished printable products - 2026-10-21
 AS-018/AS-019 are the current player map and shaped-window cutting sheet; AS-020
 is the preparation/solution guide. Earlier AS-015/AS-016/AS-017 PDFs are superseded

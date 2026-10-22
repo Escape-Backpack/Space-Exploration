@@ -8,7 +8,7 @@ for: PP-012
 tool: ReportLab / Shapely / Poppler
 file: output/pdf/constellation-final/02_Constellation_Windows.pdf
 links: []
-superseded_by:
+superseded_by: AS-024
 tags: []
 ---
 

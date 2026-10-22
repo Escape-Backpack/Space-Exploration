@@ -8,7 +8,7 @@ for: PP-011
 tool: ReportLab / Shapely / Poppler
 file: output/pdf/constellation-final/03_Preparation_and_Solutions.pdf
 links: []
-superseded_by:
+superseded_by: AS-023
 tags: []
 ---
 

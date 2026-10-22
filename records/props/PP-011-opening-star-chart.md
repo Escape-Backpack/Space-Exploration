@@ -13,6 +13,12 @@ superseded_by:
 tags: []
 ---
 
+## Plain board and simultaneous frames - 2026-10-21
+Current player chart is AS-021: a standalone 8-inch square with dots, graticule
+and star-name labels only. All print/game instructions move off its face. It and
+AS-024 share one uniform enlargement, allowing simultaneous frame placement.
+AS-023 is the revised preparation/key. Earlier rectangular maps below are history.
+
 ## Finished print edition - 2026-10-21
 Use AS-018 for current player printing and AS-020 for preparation/solutions. These
 replace the draft PDFs AS-015/AS-017 without changing chart geometry or scale.

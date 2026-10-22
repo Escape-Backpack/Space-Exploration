@@ -8,7 +8,7 @@ for: PP-011
 tool: ReportLab / Shapely / Poppler
 file: output/pdf/constellation-final/01_Star_Map.pdf
 links: []
-superseded_by:
+superseded_by: AS-021
 tags: []
 ---
 

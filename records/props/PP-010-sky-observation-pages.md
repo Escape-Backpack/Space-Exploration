@@ -13,6 +13,12 @@ superseded_by:
 tags: []
 ---
 
+## Plain board and simultaneous frames - 2026-10-21
+Designer wants the opening constellation/main-star pairings on the uncle note,
+with generic MAIN STAR markers on the frames. AS-022 supplies a candidate handwritten
+reference note on the selected form. Its date/time/location are blank; dated-order
+clue and final code are still open. Blank template AS-010 remains unchanged.
+
 ## Designer direction - 2026-10-21
 The repeating document is a simple sky observation page, with lots of space for the
 uncle's notes and drawings. Target size: **4 x 6 inches**. This replaces the former
