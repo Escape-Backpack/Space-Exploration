@@ -13,6 +13,11 @@ superseded_by:
 tags: []
 ---
 
+## Finished print edition - 2026-10-21
+Use AS-019 for current cutting/printing, with AS-018 map and AS-020 designer guide.
+The refined layout retains the exact prototype openings, four arrows and named
+starting corners. Cut before play; physical fitting and player testing remain pending.
+
 ## Current printable prototype - 2026-10-21
 AS-016 implements the designer's shaped-window direction against AS-015. Each card has
 one continuous opening loosely following its constellation, four corner arrows and

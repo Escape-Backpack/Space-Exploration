@@ -24,6 +24,13 @@ superseded_by:
 tags: []
 ---
 
+## Finished printable products - 2026-10-21
+AS-018/AS-019 are the current player map and shaped-window cutting sheet; AS-020
+is the preparation/solution guide. Earlier AS-015/AS-016/AS-017 PDFs are superseded
+print drafts. All matching geometry and counts are unchanged. Only the requested
+map/masks are finished: dated observation notes and final code remain open.
+Finished artwork does not change test_status: untested.
+
 ## Selected opening mechanism - 2026-10-21
 The designer chose the **cutout approach for the first puzzle**. Players use three
 window pieces on a star chart, one each for the selected constellations in Q-005. The current selection is

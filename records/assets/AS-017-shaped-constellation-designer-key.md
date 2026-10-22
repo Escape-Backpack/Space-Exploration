@@ -8,7 +8,7 @@ for: PP-011
 tool: ReportLab / Shapely / Poppler
 file: assets/shaped-constellations-v1/Constellation_Designer_Key_v1.pdf
 links: []
-superseded_by:
+superseded_by: AS-020
 tags: []
 ---
 

@@ -13,6 +13,11 @@ superseded_by:
 tags: []
 ---
 
+## Finished print edition - 2026-10-21
+Use AS-018 for current player printing and AS-020 for preparation/solutions. These
+replace the draft PDFs AS-015/AS-017 without changing chart geometry or scale.
+Finished artwork exists; physical preparation and player testing remain pending.
+
 ## Current printable prototype - 2026-10-21
 AS-015 is the answer-hidden player chart for the current Lyra/Cygnus/Aquila selection.
 It uses the same common projection as AS-014, with a fuller selected catalogue field.

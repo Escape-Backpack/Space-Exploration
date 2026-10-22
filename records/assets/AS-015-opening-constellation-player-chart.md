@@ -8,7 +8,7 @@ for: PP-011
 tool: ReportLab / Shapely / Poppler
 file: assets/shaped-constellations-v1/Star_Chart_Player_v1.pdf
 links: []
-superseded_by:
+superseded_by: AS-018
 tags: []
 ---
 
