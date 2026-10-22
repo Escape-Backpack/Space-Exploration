@@ -13,6 +13,12 @@ superseded_by:
 tags: []
 ---
 
+## Native Handlee note - 2026-10-21
+AS-028 is the current constellation note, replacing AS-026. Real Handlee body
+text at 12 pt with 6 mm side margins; both pencil drawings and user-approved prose
+retained. See PR-007 for the selected handwriting font. The printed blank template
+and exact 4 x 6 page size remain unchanged. Physical readability not yet tested.
+
 ## Current three-night note - 2026-10-21
 AS-026 replaces AS-025 with the designer's new wording, lightly corrected for
 grammar, and retains the telescope/window-corner drawings. The note itself now

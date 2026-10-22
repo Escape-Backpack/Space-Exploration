@@ -8,7 +8,7 @@ for: PP-010
 tool: OpenAI ImageGen built-in / ReportLab / Poppler
 file: output/pdf/uncle-note-v4/Uncles_Observations_4x6.pdf
 links: []
-superseded_by:
+superseded_by: AS-028
 tags: []
 ---
 

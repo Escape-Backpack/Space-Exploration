@@ -24,6 +24,11 @@ superseded_by:
 tags: []
 ---
 
+## Current typography edition - 2026-10-21
+AS-028 is the current note with real Handlee text. Wording, Q-009 relative
+night order and both diagram subjects unchanged. AS-021 map and AS-024 frames
+unchanged; this remains puzzle two and test_status stays untested.
+
 ## Three-night note revision - 2026-10-21
 AS-026 is the current note, using the user's warm prose and both prior sketches.
 Q-009 now stores the explicitly selected first/second/last observing-night order;

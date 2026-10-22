@@ -20,6 +20,15 @@ The designer's stated preferences (2026-10-05):
 - Example subjects: a model of the solar system and a simple technical drawing of a satellite.
 
 
+## Selected installable handwriting font - 2026-10-21
+Designer selects **Handlee Regular**, option 4 in AS-027, for the uncle's
+handwriting. This supersedes the earlier absence of a selected installable typeface
+and image-generated lettering implementation. Use actual native Handlee text for
+notes so sizes, wrapping and margins are controlled. AS-028 implements it on the
+current constellation note. Printed observation-form labels remain IBM Plex Mono.
+The selected personal-sketch direction remains in effect. Earlier implementation
+sections below are retained history.
+
 ## Implementation correction - 2026-10-21
 The AS-022 constellation note used Nothing You Could Do, a cursive substitute,
 without that typeface being selected. Designer flags the mismatch. AS-025 returns
