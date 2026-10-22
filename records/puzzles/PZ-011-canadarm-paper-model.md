@@ -32,6 +32,10 @@ superseded_by:
 tags: []
 ---
 
+## Current complete observation card - 2026-10-22
+AS-056 (4x6), AS-057 (preview), AS-058 (Letter print) replace the earlier first-test-only mockup. User requested production of proposed practice-log copy: exact makeshift introduction, matching starting sketch and caption, three entries mixing two 60-degree arrow sketches with halfway and quarter-turn wording, signed Bob. Native Handlee 12 pt. Matches selected five A/B movements and four readings; no C movement instructions. Physical/player clarity remains untested. Revised arm cutting sheet/dials still pending; the full note, board and GIF are now aligned.
+
+
 ## Updated solution GIF - 2026-10-22
 AS-055 now shows the selected five A/B turns and free C sweeps on the actual AS-053 board. AS-042 is superseded. Four readings including start. See AS-055 for validation and limits. Note/cutting-sheet revisions remain pending.
 

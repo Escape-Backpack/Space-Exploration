@@ -8,7 +8,7 @@ for: PP-010
 tool: ReportLab / native Handlee / vector diagrams / Poppler
 file: assets/canadarm-observation-bob-v4.pdf
 links: []
-superseded_by:
+superseded_by: AS-056
 tags: []
 ---
 
