@@ -32,30 +32,23 @@ have exactly one correct placement. Players count the stars exposed in each wind
 Order the counts by the uncle's own dated observations (Q-009), then open the envelope
 bearing that answer directly (PR-008).
 
-The mechanism is decided, but it has not been built or tested. Exact observation dates,
-final code, chart, cutout geometry, alignment cues and print sizes remain open. The
+The mechanism is decided and printable candidate artwork now exists (AS-015, AS-016,
+AS-017). Exact observation dates and final code remain open. Physical testing is pending. The
 observation-page format is PP-010. Do not infer that all three cutout pieces must share
 its dimensions. The prototype chart/mask props are PP-011 and PP-012, available at the start.
 PP-010 supplies the eventual dated observation note; that note is still unwritten.
 PP-008 is the welcome card and is no longer the counting surface in this version.
 
-## Shaped-window direction - 2026-10-21
-Designer proposes windows shaped roughly around each constellation, with marked corners
-that must each align to a star, and a fuller background star field. PP-012 stores the
-reference and current design notes; PP-011 stores the background-chart requirement.
-The separate alignment holes and specially ringed chart stars of the old interface
-are superseded for this direction. Unique placement is required but not yet verified.
-Current target counts and dated-observation ordering are unchanged.
+## Current shaped-window prototype - 2026-10-21
+AS-015 is the monochrome player map; AS-016 provides three shaped openings, with no
+separate small sights. AS-017 is designer-only. PP-011/PP-012 hold the current production
+and alignment instructions. Each window has four corner arrows and a named reference
+corner; digital correspondence/count checks passed under the documented conditions.
+The named starting stars are assistant-proposed scaffolding in this requested prototype,
+not a separately approved final difficulty choice. No previous Inuit fit result is used.
 
-## Current revision - 2026-10-21
-AS-014 is the new coloured reference chart, with all groups on one common-scale
-projection. Counts and retained Cygnus tips are specified in Q-005. Indigenous
-naming is no longer required for the opening. Existing PP-012 masks/AS-012 and their
-AS-013 fit key belong to the superseded Inuit geometry and cannot be used with this
-chart. New mask windows/reference alignment and an unhighlighted player version need
-to be drawn and checked. No previous unique-fit result transfers to this revision.
-The observation-page format and date-ordering mechanism remain selected; exact dates
-and code order stay open. Physical test_status remains untested.
+The target selection is Q-005. Date ordering stays Q-009; exact dates and final code
+remain unassigned. Test status remains untested until physical/player evidence exists.
 
 ## Earlier Inuit chart/cutout prototype - retained history
 Requested first printable design is now PP-011 / PP-012, with player PDFs AS-011 and
@@ -77,7 +70,7 @@ its old planet cipher configuration (PR-008); no labels are produced from it her
 - A main window should require counting chart stars. One separate hole per answer star
   risks making the chart unnecessary because players could count the holes.
 - Determine front/back orientation, whether pieces can rotate, and readable alignment
-  tolerance before printing. No final alignment design or numerical tolerance is chosen.
+  tolerance before printing. AS-016 defines the candidate alignment design; its digital tolerance is not yet physically tested.
 - Test the physical print and cut pieces. Status decided does not mean passed.
 
 ## Alternative retained for later
