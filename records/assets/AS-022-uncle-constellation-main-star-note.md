@@ -8,7 +8,7 @@ for: PP-010
 tool: ReportLab / Shapely / Poppler
 file: output/pdf/constellation-frames-v2/03_Uncles_Note_4x6.pdf
 links: []
-superseded_by:
+superseded_by: AS-025
 tags: []
 ---
 

@@ -19,6 +19,14 @@ The designer's stated preferences (2026-10-05):
 - He makes many hand-drawn sketches; these could also serve as clues.
 - Example subjects: a model of the solar system and a simple technical drawing of a satellite.
 
+
+## Implementation correction - 2026-10-21
+The AS-022 constellation note used Nothing You Could Do, a cursive substitute,
+without that typeface being selected. Designer flags the mismatch. AS-025 returns
+to the selected Engineer's notebook hand-printing appearance using AS-007's centre
+column as image-generation reference. There is still no selected installable font
+for the uncle's handwriting. Printed observation-form labels use IBM Plex Mono.
+
 ## Selected handwriting
 The designer selected option 2, **Engineer's notebook**, from AS-007 on 2026-10-05.
 Use tidy mixed-case hand printing, open letterforms, an upright stance with a slight

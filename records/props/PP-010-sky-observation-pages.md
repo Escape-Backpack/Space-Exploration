@@ -13,6 +13,13 @@ superseded_by:
 tags: []
 ---
 
+## Warm second-puzzle note - 2026-10-21
+AS-025 is the current candidate constellation reference note, replacing AS-022.
+It follows the selected observation form, with warm hand-printed prose and two
+small pencil sketches. PR-007 defines the handwriting style. No cursive substitute
+font. Exact date/time/location and count-order clue remain unfinished; blank AS-010
+template unchanged. Constellation activity is puzzle two per current PZ-002 direction.
+
 ## Plain board and simultaneous frames - 2026-10-21
 Designer wants the opening constellation/main-star pairings on the uncle note,
 with generic MAIN STAR markers on the frames. AS-022 supplies a candidate handwritten

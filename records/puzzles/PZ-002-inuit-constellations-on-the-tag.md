@@ -24,6 +24,17 @@ superseded_by:
 tags: []
 ---
 
+## Second puzzle and warmer note - 2026-10-21
+Designer identifies this constellation activity as the **second puzzle**. This
+supersedes earlier references to it as the opening/first puzzle. The preceding
+puzzle and exact dependency/packing change are not specified in this discussion;
+do not infer them from the numeric record ID or invent an envelope assignment.
+
+AS-025 replaces the rejected AS-022 note with warm prose and technical sketches in
+the selected PR-007 handwriting style. The revised text is candidate for review.
+AS-021 map and AS-024 frames are unchanged. Target counts and Q-009 date-ordering
+approach remain unchanged; actual dates/order/code and physical test remain open.
+
 ## Plain board and simultaneous frames - 2026-10-21
 Designer requests plain square AS-021 board and simultaneous narrow AS-024 frames.
 Pairings now come from the uncle note AS-022; the frames only say MAIN STAR. Count
