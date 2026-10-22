@@ -32,6 +32,12 @@ superseded_by:
 tags: []
 ---
 
+## Illustrated observation-page preview - 2026-10-22
+AS-043 is a candidate first-page preview of the mixed-clue note: start/first
+reading and Test 1 (elbow diagram plus inferred wrist compensation). Tests 2/3
+are not yet laid out. Complete instruction log, revised board and printed dials
+remain unfinished. No new code, puzzle placement or physical-test evidence.
+
 ## Clue development: mixed angles and sketches - 2026-10-22
 Designer likes the AS-042 sequential motion but finds six fully explicit commands
 too simple. Wants to explore a mix of angles and sketches in the uncle note.
