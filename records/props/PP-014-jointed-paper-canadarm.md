@@ -13,6 +13,19 @@ superseded_by:
 tags: []
 ---
 
+## Selected arm labels - 2026-10-22
+Designer renames the three moving pieces **A, B, C, from longest to shortest**:
+- A: upper arm, shoulder/base pivot (110 pt pin-to-pin in the current candidate).
+- B: forearm, elbow pivot (100 pt in the current candidate).
+- C: short hand piece, wrist pivot (35 pt to reading centre in the candidate).
+Use these labels on revised parts and movement clues. Turn A at its base; turn B
+where it joins A; turn C where it joins B. Upstream turns carry downstream pieces,
+with their relative settings retained. Numeric dimensions remain prototype values.
+
+Designer asks whether degree marks should be 0, 30, 60, 90, etc. Assistant recommends
+30-degree tick spacing: 60 is two intervals, 90 is three. Final dial radius, label
+density and physical readability remain open; no new dial artwork produced yet.
+
 ## Joint-angle aids proposed - 2026-10-22
 Designer suggests adding angles to support the revised sequential movements in
 PZ-011. Proposed aid: small degree scales centred at the three joints and indicators

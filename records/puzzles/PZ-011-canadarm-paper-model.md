@@ -32,6 +32,23 @@ superseded_by:
 tags: []
 ---
 
+## A/B/C labels and revised opening - 2026-10-22
+Use PP-014's selected A/B/C part labels in new clues, longest to shortest.
+The same relative motion sequence maps to B+60, C-60, A+60, C+90, B-60, C-90
+(plus means CCW, minus CW). This is a translation of the checked example, not a
+new chosen final code or new geometry.
+
+Designer provides this exact opening for the next Sky Observations revision:
+
+"I've been practicing a few moves with my makeshift Canadarm. It is really impressive what Canada has contributed to space exploration!"
+
+Then a diagram of the starting pose, captioned: "This is the start position."
+Remove the previous explicit instruction about noting/reading the number in the
+circle from this opening; the designer expects players to discover that extraction.
+The rest of the note is still being written by the designer. Keep Bob signature.
+Do not treat the old observation-page wording/labels as the current target copy.
+No revised PDF, degree dials or physical/player test produced in this discussion.
+
 ## Illustrated observation-page preview - 2026-10-22
 AS-043 is a candidate first-page preview of the mixed-clue note: start/first
 reading and Test 1 (elbow diagram plus inferred wrist compensation). Tests 2/3

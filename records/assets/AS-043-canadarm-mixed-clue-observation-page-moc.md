@@ -12,6 +12,12 @@ superseded_by:
 tags: []
 ---
 
+## Next revision requested - 2026-10-22
+Current PDF remains the earlier mockup. PZ-011 now stores the designer's new
+makeshift-Canadarm opening and "This is the start position." caption. PP-014 stores
+the new A/B/C part labels. Remove the old explicit opening readout instruction when
+rebuilding; the designer is still writing the remaining note. No new PDF yet.
+
 ## Signed Bob mockup - 2026-10-22
 Adds Bob at the bottom in real Handlee 12 pt. The checkpoint line/box moved up
 slightly to leave space. Other prose, diagrams and clues unchanged. Local output:
