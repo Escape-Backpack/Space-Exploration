@@ -13,27 +13,26 @@ superseded_by:
 tags: []
 ---
 
-## Current mask direction - 2026-10-21
-The designer supplied a drawing showing openings roughly following each constellation's
-silhouette. Reference copied unchanged to
+## Current printable prototype - 2026-10-21
+AS-016 implements the designer's shaped-window direction against AS-015. Each card has
+one continuous opening loosely following its constellation, four corner arrows and
+a named starting corner. All four marks must align simultaneously with stars; count
+every dot visible in the opening. AS-017 shows the intended placements for preparation.
+
+Three 4 x 4 inch cards fit on one letter sheet. Print on opaque cardstock at 100% /
+Actual size, using the same setting as the chart. Cut solid card borders and remove
+the dashed interiors before play; keep the corner arrows and labels. No extra sight
+holes. Use printed side up; rotate to find the fit. Aquila has no island or bridge.
+The 4 x 6 inch observation-page format PP-010 is a separate prop.
+
+The digital search found one four-corner correspondence per named-star anchor at the
+stated centre tolerance; AS-017 and the audit document the method and limits. Physical
+cutting, fit, ease of discovery and playability remain untested. No dates or code order
+are printed. At reset return all three already-cut cards intact.
+
+Reference supplied by designer, copied unchanged to
 source/star-chart-v1/Designer_Shaped_Window_Reference_2026-10-21.png.
-
-Use a shaped counting window with marked corners/edge positions that must align to
-stars. This replaces the earlier proposed separate three-hole/ringed-star interface
-for the current Lyra/Cygnus/Aquila version. The marked positions should have one
-matching star each. Exactly one valid placement per piece is a design requirement,
-not a tested property. Number of marks, exact outlines, tolerances and print sizes
-remain open. The chart needs more surrounding stars (PP-011).
-
-Assistant recommendations for discussion: use a few widely separated, non-collinear
-alignment marks instead of marking every answer star; all required marks must fit at
-the same time. Ensure all target stars remain fully inside the window and no other
-star dots are visible at the intended position. Keep the opening wide enough for
-counting and hand cutting. **Designer decision, later 2026-10-21:** Aquila has one continuous opening with no
-paper island or bridge. The chart must contain no printed star dots inside its central
-triangular area; the eight selected answer stars remain visible along the pattern.
-This replaces the bridge/open-interior choice. Exact outlines are still to be built.
-The earlier Inuit mask sheet below is retained history and does not fit AS-014.
+All sections below describe the earlier Inuit prototype; those masks do not fit AS-015.
 
 ## Earlier Inuit prototype - retained history
 Three opaque cards, one per selected constellation (Q-005). Each card is 300 x 180 pt
