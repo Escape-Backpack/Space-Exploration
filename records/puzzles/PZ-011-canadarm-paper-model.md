@@ -3,11 +3,11 @@ id: PZ-011
 title: Canadarm paper model
 type: puzzle
 # idea | candidate | decided | built | parked
-status: idea
+status: candidate
 # The structure beat this puzzle belongs to (one ID)
 beat: ST-004
 # Props the player needs, e.g. [PP-001]
-props: []
+props: [PP-013, PP-014, PP-010]
 # Puzzles that must be solved first, e.g. [PZ-002]
 needs: []
 # cipher | physical | search | logic | wordplay | other
@@ -32,10 +32,24 @@ superseded_by:
 tags: []
 ---
 
-## How it works
-A cardboard arm joined with split pins at shoulder, elbow and wrist. Players set the joint angles from the uncle's technical sketch (PR-007 style); the arm's tip then points to a digit on a grid.
+## Candidate paper prototype - 2026-10-21
+AS-037 provides a board, prepared three-link arm and four test pairs across two
+observation pages. Each pair shares elbow E, with UP arrows preserving orientation.
+The hand's circular reading opening is an assistant proposal to avoid covering the
+digit. PP-013/PP-014 hold construction. Geometry and PDF checks passed within the
+limited scope documented in AS-037; physical/player tests not performed.
 
-Brainstormed 2026-10-21 as one of ten candidate puzzles for the empty eras. Nothing is decided: answer, props, difficulty, era placement and artwork are all open.
+No new puzzle number or prerequisite selected. Candidate digit sequence is designer
+only and not stored in answer. publish_hints remains no; test_status remains untested.
+
+## How it works
+Designer selects **sketch matching** rather than explicit joint-angle settings
+(2026-10-21). Players interpret the uncle's technical drawings to recreate arm poses,
+then extract digits from the board using the arm. No numerical angle arithmetic.
+
+The selected approach is decided; exact dimensions, clue layout, digit extraction,
+number of poses, final answer, difficulty, puzzle position and packing remain open.
+AS-037 is a candidate implementation for review, not an approved final mechanism.
 
 ## Clue wording
 
