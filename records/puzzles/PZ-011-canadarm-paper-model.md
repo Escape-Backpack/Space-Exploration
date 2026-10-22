@@ -32,6 +32,14 @@ superseded_by:
 tags: []
 ---
 
+## Smooth sequential movement GIF - 2026-10-22
+AS-042 demonstrates the current candidate sequence: shown start, six separate
+relative joint turns and three later readouts. Smooth movement, one active joint
+setting at a time, and checkpoint pauses per user request. Schematic joint scales
+and a redrawn candidate board are included in the GIF; printed pack remains the
+older prototype and still needs revision. No final code, dimensions or dial geometry
+approved by this animation; test_status remains untested.
+
 ## Current direction: starting pose and sequential moves - 2026-10-22
 Designer likes the physical arm/readout but rejects the independent paired-sketch
 clues. Show a complete starting pose so players can position the arm and read the
