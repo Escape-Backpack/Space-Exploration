@@ -13,6 +13,12 @@ superseded_by:
 tags: []
 ---
 
+## Current revision - 2026-10-22
+C now swings freely to the unique reachable number; no C angle scale or commanded C turns. A and B remain controlled joints, with A carrying B when turned. Current board AS-053 preserves lengths 110/100/35 pt; widened joint scales and revised cutting sheet still pending. Existing physical pieces can demonstrate the geometry; no physical test claimed.
+
+Earlier sections below are historical where they conflict with this revision.
+
+
 ## Selected arm labels - 2026-10-22
 Designer renames the three moving pieces **A, B, C, from longest to shortest**:
 - A: upper arm, shoulder/base pivot (110 pt pin-to-pin in the current candidate).

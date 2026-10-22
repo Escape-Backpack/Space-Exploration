@@ -32,6 +32,16 @@ superseded_by:
 tags: []
 ---
 
+## Updated solution GIF - 2026-10-22
+AS-055 now shows the selected five A/B turns and free C sweeps on the actual AS-053 board. AS-042 is superseded. Four readings including start. See AS-055 for validation and limits. Note/cutting-sheet revisions remain pending.
+
+
+## Current revision - 2026-10-22
+Designer selects four readings: start, then A clockwise 60 degrees; then A counterclockwise 30 degrees followed by B counterclockwise 60 degrees; then A counterclockwise 90 degrees followed by B clockwise 30 degrees. All movements cumulative and relative to current joint settings; read only after each completed stage. C swings freely to the unique reachable number. Starting A is vertical up and B horizontal right (relative A=90, B=-90 degrees). Board AS-053/054 supersedes old digit layout. Retained 5938 is still a candidate, not an assigned answer. Native-text uncle note, cutting sheet and solution GIF still need corresponding updates. PZ remains untested and hints unpublished.
+
+Earlier sections below are historical where they conflict with this revision.
+
+
 ## A/B/C labels and revised opening - 2026-10-22
 Use PP-014's selected A/B/C part labels in new clues, longest to shortest.
 The same relative motion sequence maps to B+60, C-60, A+60, C+90, B-60, C-90

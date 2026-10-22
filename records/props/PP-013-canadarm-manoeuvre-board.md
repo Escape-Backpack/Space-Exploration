@@ -13,6 +13,12 @@ superseded_by:
 tags: []
 ---
 
+## Current revision - 2026-10-22
+Rebuilt standalone Letter board: AS-053 PDF, AS-054 preview. Matches the selected PZ-011 A/B moves with four readings including the start. Existing lengths/base retained. 30 decoy circles. Print at 100% / Actual size. Geometry audit and builder: output/pdf/canadarm-board-v3/geometry-audit.json and source/build_canadarm_board_v3.py. Full C rotation checked analytically: exactly one numbered circle can contact its aperture at each stop (35 pt radius, 9 pt aperture, 13 pt numbered circle). No physical/player test. Previous AS-037 board is obsolete for these moves.
+
+Earlier sections below are historical where they conflict with this revision.
+
+
 ## Sequential-command board revision needed - 2026-10-22
 PZ-011 now starts from a shown pose and follows a cumulative movement sequence.
 The numbered work board below is the old independent-sketch prototype. A new
