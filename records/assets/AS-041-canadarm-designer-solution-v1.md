@@ -19,6 +19,11 @@ superseded_by:
 tags: []
 ---
 
+## Earlier solution animation - 2026-10-22
+This GIF solves the old independent-pose prototype. It illustrates the physical
+arm/readout the designer likes, but is not a walkthrough of the newly requested
+starting-pose and sequential-command clue. Use PZ-011 for the current direction.
+
 ## Designer solution GIF - 2026-10-22
 User requests an animated GIF of the Canadarm solution. This loops through all four
 candidate poses, shows each pair of partial sketches, keeps the base fixed and reads

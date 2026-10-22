@@ -13,6 +13,13 @@ superseded_by:
 tags: []
 ---
 
+## Sequential-command board revision needed - 2026-10-22
+PZ-011 now starts from a shown pose and follows a cumulative movement sequence.
+The numbered work board below is the old independent-sketch prototype. A new
+candidate sequence has different hand endpoints, so do not use the old digit layout
+as if it supports the revised commands. Starting pose/reference and readout circles
+need a corresponding new board; exact command values and targets remain proposals.
+
 ## Candidate board
 Letter portrait work board with fixed shoulder BASE and printed numbered circles.
 Used with PP-014. AS-037 contains the candidate board/cutting sheet, two 4 x 6

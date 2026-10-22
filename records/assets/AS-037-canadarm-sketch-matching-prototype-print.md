@@ -12,6 +12,12 @@ superseded_by:
 tags: []
 ---
 
+## Earlier clue mechanism - 2026-10-22
+This print pack uses the independent paired-sketch mechanism that the designer
+now replaces with a shown start plus cumulative movements (PZ-011 current section).
+Its arm/readout idea remains a reference. It has no printed joint scales and its
+numbered board is not matched to the candidate new commands.
+
 ## Selected approach and proposed implementation
 User selects sketch matching for PZ-011. This assistant prototype proposes four
 tests. Each gives a shoulder/elbow partial view and elbow/hand partial view with

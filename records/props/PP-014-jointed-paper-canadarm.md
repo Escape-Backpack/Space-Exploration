@@ -13,6 +13,14 @@ superseded_by:
 tags: []
 ---
 
+## Joint-angle aids proposed - 2026-10-22
+Designer suggests adding angles to support the revised sequential movements in
+PZ-011. Proposed aid: small degree scales centred at the three joints and indicators
+on the outgoing links. Commands are relative turns, with other joint settings held;
+turning shoulder carries elbow/wrist/hand, turning elbow carries wrist/hand.
+Calibration/reference directions and dial geometry are not yet built or tested.
+The old plain three-piece cutting sheet remains a historical physical prototype.
+
 ## Candidate mechanism
 Three opaque cardstock pieces: shoulder-to-elbow link, elbow-to-wrist link and short
 reading hand. Assemble before play with three split pins, one fixing shoulder to

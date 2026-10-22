@@ -32,6 +32,33 @@ superseded_by:
 tags: []
 ---
 
+## Current direction: starting pose and sequential moves - 2026-10-22
+Designer likes the physical arm/readout but rejects the independent paired-sketch
+clues. Show a complete starting pose so players can position the arm and read the
+first digit, then give a sequence of movements leading to later readout positions.
+Continue from the previous state; do not reset for each reading. This supersedes
+independent sketch matching as the route to the answer. A starting-pose drawing
+remains useful. Designer suggests angles on the arm as a possible aid.
+
+Assistant implementation proposal: degree scales around shoulder, elbow and wrist
+pivots with an indicator on the moving link. Commands specify joint, turn amount
+and clockwise/counterclockwise direction as seen with printed face up. An upstream
+joint turn carries its downstream links; preserve other joint settings. Read only
+at marked checkpoints, including the start. No exact scale construction, command
+values, checkpoint count, final answer or difficulty newly selected.
+
+A checked candidate example uses four readings: start; elbow CCW 60 and wrist CW
+60; shoulder CCW 60 and wrist CCW 90; elbow CW 60 and wrist CW 90. These are examples
+for review, not approved clue text. Construction data/checks are in
+output/design/canadarm-sequence-v2/candidate-sequence.json. Motion sampled inside
+the old board area with constant link lengths and fixed base; four endpoints differ.
+The old numbered board does not match these new endpoints and must be redesigned.
+Joint scales, physical precision, slack and cumulative error remain untested.
+
+## Earlier independent-pose prototype - retained history
+AS-037 and AS-041 show the old paired-sketch mechanism; neither is a finished
+implementation of this new sequence. No angle-scale artwork has been built yet.
+
 ## Candidate paper prototype - 2026-10-21
 AS-037 provides a board, prepared three-link arm and four test pairs across two
 observation pages. Each pair shares elbow E, with UP arrows preserving orientation.
