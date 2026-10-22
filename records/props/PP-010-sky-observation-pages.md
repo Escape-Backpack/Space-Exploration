@@ -13,6 +13,12 @@ superseded_by:
 tags: []
 ---
 
+## Current three-night note - 2026-10-21
+AS-026 replaces AS-025 with the designer's new wording, lightly corrected for
+grammar, and retains the telescope/window-corner drawings. The note itself now
+supplies relative observing-night order (Q-009). Blank calendar date/time/location
+fields do not prevent that ordering; no invented dates or meta marks added.
+
 ## Warm second-puzzle note - 2026-10-21
 AS-025 is the current candidate constellation reference note, replacing AS-022.
 It follows the selected observation form, with warm hand-printed prose and two

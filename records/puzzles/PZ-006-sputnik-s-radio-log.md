@@ -41,6 +41,13 @@ Designer choices - 2026-10-21:
 - **Prop form: paper tape strip.** A long narrow strip, like a chart recorder printout,
   rolled up.
 
+- **Track labels: wavelength bands.** The tape labels its tracks "15 m band" and
+  "7.5 m band", not by frequency. The uncle's note gives the frequency (20 MHz), and a
+  formula he sketched, wavelength (m) = 300 / frequency (MHz), lets players convert:
+  300 / 20 = 15 m, so the 15 m track counts. Chosen over frequency labels (too direct)
+  and unlabelled tracks read from a radio-dial drawing.
+  Check: 300 / 20.005 = 14.996 m and 300 / 40.002 = 7.4996 m, so 15 m and 7.5 m are fair.
+
 Chosen over: short/long as binary, gap timing with a printed ruler, and Morse digits.
 Choosing counting also removes this puzzle's overlap with the Morse idea in PZ-012.
 
@@ -58,8 +65,8 @@ up 20 MHz."
 
 ## Open
 - The answer (4-5 digits) and the decoy track's counts.
-- Track labels: whether the tracks say "20 MHz" / "40 MHz" outright or players must
-  infer which is which (e.g. from the uncle's sketch). Either way it must be inferable.
+- Where the wavelength formula sketch lives (on the note, near a drawing of his radio,
+  or on the tape) and its exact wording.
 - Whether the tape shows the real alternating timing, and how groups are separated so
   players can tell where one digit ends.
 - The note's exact wording and where it lives (an observation page PP-010, the tape

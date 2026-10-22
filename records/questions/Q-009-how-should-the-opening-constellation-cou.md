@@ -1,14 +1,22 @@
 ---
 id: Q-009
-title: How should the opening constellation counts be ordered?
+title: How should the constellation counts be ordered?
 type: question
 status: answered
 about: [PZ-002, PP-010]
-answer: Order the star counts by the uncle's own dated observations, earliest to latest; exact dates remain open.
+answer: Use the uncle's relative night order: first Lyra, second Cygnus, last Aquila. Exact calendar dates are not needed for this wording.
 links: [Q-005]
 superseded_by:
 tags: []
 ---
+
+## User-supplied night order - 2026-10-21
+Designer provides explicit note text: first night Lyra/Vega; second night
+Cygnus/Deneb; last night Aquila/Altair. AS-026 implements this relative chronology.
+This supersedes the requirement to invent three calendar dates for count ordering.
+Order the Q-005 counts by those nights; no historical discovery dates are claimed.
+The note's date/time/location fields can remain blank until story details are set.
+No answer digits are printed on the player note. PZ-002 test_status remains untested.
 
 ## Designer proposal - 2026-10-21
 Choose three constellations from oldest recorded to newest, if that chronology is

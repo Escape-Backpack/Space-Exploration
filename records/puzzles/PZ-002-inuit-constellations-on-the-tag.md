@@ -24,6 +24,13 @@ superseded_by:
 tags: []
 ---
 
+## Three-night note revision - 2026-10-21
+AS-026 is the current note, using the user's warm prose and both prior sketches.
+Q-009 now stores the explicitly selected first/second/last observing-night order;
+calendar dates are not required to infer that sequence. AS-025 is superseded.
+This is still puzzle two. Map AS-021 and frames AS-024 are unchanged; physical
+testing remains pending. Direct-code envelope configuration/label is separate work.
+
 ## Second puzzle and warmer note - 2026-10-21
 Designer identifies this constellation activity as the **second puzzle**. This
 supersedes earlier references to it as the opening/first puzzle. The preceding
