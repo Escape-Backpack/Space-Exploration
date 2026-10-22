@@ -5,13 +5,20 @@ type: prop
 status: decided
 form: printed
 source: print
-envelope:
+envelope: start
 after_game: return
 reset_name: Observation pages
 links: [PR-007]
 superseded_by:
 tags: []
 ---
+
+## Start-of-game Studio placement - 2026-10-21
+The first observation note AS-028 is provided at the start with PP-011 and PP-012.
+Its preview and printable PDFs are now uploaded to Studio. Additional observation
+pages later in the adventure still need their own packing decisions; this start
+placement refers to the current first-puzzle note.
+
 
 ## Native Handlee note - 2026-10-21
 Designer accepts this note for the first puzzle. Provide the AS-028 constellation

@@ -1,16 +1,22 @@
 ---
 id: AS-024
-title: Narrow constellation frame cutting sheet
+title: Constellation frames - current cutting PDF
 type: asset
 status: built
 kind: print
 for: PP-012
 tool: ReportLab / Shapely / Poppler
-file: output/pdf/constellation-frames-v2/02_Constellation_Frames.pdf
+file: assets/space-puzzle-01-frame-cutting-sheet.pdf
 links: []
 superseded_by:
 tags: []
 ---
+
+## Studio-hosted file - 2026-10-21
+The current PDF is uploaded to Studio file storage and verified byte-for-byte
+against output/pdf/constellation-frames-v2/02_Constellation_Frames.pdf. Local production output remains unchanged.
+The file field now points to the Studio-served asset so the online download works.
+
 
 ## Revised product - 2026-10-21
 Letter cutting sheet containing three silhouette frames. Retained band follows the entire single opening at 7.5 mm width. Each frame bears only its constellation name and generic MAIN STAR label, plus four corner arrows. No actual star names and no rectangular card surrounds. All three frames fit simultaneously on AS-021. Print on opaque cardstock, then cut outer solid contours and dashed interiors. Keep arrows and labels. No Aquila island or bridge.

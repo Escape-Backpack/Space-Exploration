@@ -1,6 +1,6 @@
 ---
 id: PP-008
-title: First Card from the Uncle
+title: Welcome card from the uncle
 type: prop
 # idea | candidate | decided | built | parked
 status: decided
@@ -17,6 +17,33 @@ links: []
 superseded_by:
 tags: []
 ---
+
+## Current role: welcome only
+This is the uncle's welcome card, available at the start. It introduces the adventure;
+it is **not the constellation puzzle or its counting surface**. Printed documents and
+answer-marked envelopes replace the earlier luggage-tag/colour-lock mechanism (PR-008).
+
+The first puzzle is PZ-002, using three separate current player materials:
+- PP-011: square star chart (AS-021).
+- PP-012: the three narrow constellation frames (AS-024).
+- PP-010: the accepted Handlee observation note (AS-028).
+
+The old coloured Inuit star artwork AS-002 is superseded and must not be used for
+the current puzzle. AS-008 remains the earlier welcome-and-telescope illustration;
+it is welcome artwork, not the current constellation note.
+
+## Player sees
+The uncle's welcome, with a telescope illustration:
+
+Hello nibling! My time in the great Canadian North has been a great experience working on an amazing new space project! It also gave me time to re-kindle my passion for all things space. So I created this adventure, you have to solve puzzles to get to the final prize. Pay attention to details and enjoy!
+
+Welcome wording is retained from the earlier approved design. Final welcome-card
+format, adaptation to the selected Handlee font, and any hint QR placement remain
+unfinished. Do not use the earlier coloured-star front as a puzzle clue.
+
+## Earlier luggage-tag design - superseded history
+Everything below describes the old physical tag and colour-lock layout. It does
+not describe the current welcome card or first-puzzle materials.
 
 A luggage tag attached to the backpack. It does several things:
 - explains the adventure, with a handwritten welcome from the uncle

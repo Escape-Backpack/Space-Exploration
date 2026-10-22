@@ -18,6 +18,14 @@ superseded_by:
 tags: []
 ---
 
+## Current format
+The older backpack/locked-compartment container is a historical concept. Current
+play uses printed documents and answer-marked envelopes (PR-008); no locked
+compartment is required for the first puzzle. Do not buy a lock for this record.
+
+## Earlier container concept - superseded
+
+
 The backpack itself. Still to find (Q-006).
 At least one compartment must lock: the one opened by the first lock (PZ-002),
 holding the Galileo kit (PP-005, PP-006, PP-007).

@@ -1,16 +1,22 @@
 ---
 id: AS-021
-title: Square star chart
+title: Square star chart - current printable PDF
 type: asset
 status: built
 kind: print
 for: PP-011
 tool: ReportLab / Shapely / Poppler
-file: output/pdf/constellation-frames-v2/01_Star_Chart_8in.pdf
+file: assets/space-puzzle-01-star-chart.pdf
 links: []
 superseded_by:
 tags: []
 ---
+
+## Studio-hosted file - 2026-10-21
+The current PDF is uploaded to Studio file storage and verified byte-for-byte
+against output/pdf/constellation-frames-v2/01_Star_Chart_8in.pdf. Local production output remains unchanged.
+The file field now points to the Studio-served asset so the online download works.
+
 
 ## Revised product - 2026-10-21
 Plain 8 x 8 inch chart: only catalogue dots, graticule and the three reference-star labels. No title, counting instructions, legend, print footer or attribution on the player face. Attribution retained in AS-023 and package README. Print at Actual size, centred on letter paper, and trim square.

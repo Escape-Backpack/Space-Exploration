@@ -1,16 +1,22 @@
 ---
 id: AS-023
-title: Narrow-frame preparation and solutions
+title: Constellation designer preparation and key
 type: asset
 status: built
 kind: print
 for: PP-011
 tool: ReportLab / Shapely / Poppler
-file: output/pdf/constellation-frames-v2/04_Preparation_and_Key.pdf
+file: assets/space-puzzle-01-designer-preparation-key.pdf
 links: []
 superseded_by:
 tags: []
 ---
+
+## Studio-hosted file - 2026-10-21
+The current PDF is uploaded to Studio file storage and verified byte-for-byte
+against output/pdf/constellation-frames-v2/04_Preparation_and_Key.pdf. Local production output remains unchanged.
+The file field now points to the Studio-served asset so the online download works.
+
 
 ## Current setup - 2026-10-21
 Designer confirms the constellation activity is the first puzzle (PZ-002 current

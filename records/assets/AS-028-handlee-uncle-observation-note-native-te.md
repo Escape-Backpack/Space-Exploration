@@ -1,16 +1,22 @@
 ---
 id: AS-028
-title: Handlee uncle observation note - native text
+title: Handlee uncle observation note - current 4 x 6 PDF
 type: asset
 status: built
 kind: print
 for: PP-010
 tool: ReportLab / embedded Handlee TTF / Poppler
-file: output/pdf/uncle-note-v5-handlee/Uncles_Observations_4x6.pdf
+file: assets/space-puzzle-01-handlee-note-4x6.pdf
 links: []
 superseded_by:
 tags: []
 ---
+
+## Studio-hosted file - 2026-10-21
+The current PDF is uploaded to Studio file storage and verified byte-for-byte
+against output/pdf/uncle-note-v5-handlee/Uncles_Observations_4x6.pdf. Local production output remains unchanged.
+The file field now points to the Studio-served asset so the online download works.
+
 
 ## Selected real font implemented - 2026-10-21
 Designer accepts this edition and confirms it belongs to the first puzzle (PZ-002),

@@ -15,9 +15,15 @@ file: assets/luggage-tag-back-inuit-constellations-v2.png
 # Any related record IDs, e.g. [PZ-002, Q-004]
 links: [PZ-002, Q-005]
 # Set to an ID when this record is replaced. It then moves to the Parked tab.
-superseded_by:
+superseded_by: AS-021
 tags: []
 ---
+
+## Superseded first-puzzle artwork - 2026-10-21
+The coloured Inuit luggage-tag image is historical. Use current AS-021 map, AS-024
+frames and AS-028 note for PZ-002. Superseded assets must not supply PP-008
+thumbnail or first-puzzle instructions in the Studio.
+
 
 ## Current face assignment
 On 2026-10-05 the designer assigned the existing star artwork to the **front**
