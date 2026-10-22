@@ -32,6 +32,32 @@ superseded_by:
 tags: []
 ---
 
+## Clue development: mixed angles and sketches - 2026-10-22
+Designer likes the AS-042 sequential motion but finds six fully explicit commands
+too simple. Wants to explore a mix of angles and sketches in the uncle note.
+Keep the start and cumulative one-joint-at-a-time mechanism. Exact clue wording,
+sketches and difficulty are still proposals, not finalized.
+
+Assistant proposal: a warm three-entry experiment log, with a complete start sketch
+and first readout, then one readout after each two-movement entry. Clearly identify
+which joint each clue concerns. Mix these six clue forms:
+1. Elbow 60 degrees, direction shown by a CCW curved sketch arrow.
+2. Wrist compensates by the same amount in the opposite direction (CW 60).
+3. Shoulder dial sketch from 90 to 150, CCW (infer 60).
+4. Wrist right-angle/quarter-turn sketch with CCW arrow (infer 90).
+5. Return elbow to its starting mark (infer CW 60).
+6. Wrist/hand sketch faces right, parallel to the board's bottom edge (infer CW 90
+   from the state after move 5). Only the wrist adjusts; upstream joints stay fixed.
+
+These interpretations were checked to reproduce all three existing AS-042 checkpoint
+joint states. The final hand's absolute direction is horizontal/right. Explicit UP
+reference and joint names prevent diagram rotation or joint ambiguity. A small
+recording mark after each pair should establish when to read; no number after every
+individual motion. The starting sketch must show reference marks needed by clue 5.
+
+No new note PDF/sketch artwork or physical/player test yet. The proposed dial labels
+are game calibration values, not real-arm telemetry. Candidate code remains unassigned.
+
 ## Smooth sequential movement GIF - 2026-10-22
 AS-042 demonstrates the current candidate sequence: shown start, six separate
 relative joint turns and three later readouts. Smooth movement, one active joint
