@@ -24,10 +24,23 @@ superseded_by:
 tags: []
 ---
 
+## Current position: first puzzle - 2026-10-21
+Designer confirms this constellation activity is the **first puzzle**. This replaces
+the earlier second-puzzle placement. Keep record ID PZ-002; IDs are not play order.
+There is no prerequisite puzzle (needs: []). Provide the AS-021 square chart,
+AS-024 prepared frames and AS-028 Handlee observation note at the start.
+Q-009 defines the count order from the three nights. Current artwork/wording is
+accepted; physical test_status remains untested and publish_hints remains no.
+
 ## Current typography edition - 2026-10-21
 AS-028 is the current note with real Handlee text. Wording, Q-009 relative
 night order and both diagram subjects unchanged. AS-021 map and AS-024 frames
-unchanged; this remains puzzle two and test_status stays untested.
+unchanged; first-puzzle placement is confirmed above and test_status stays untested.
+
+## Earlier revision history
+The sections below retain previous design states. Current placement and files are
+specified above; earlier second-puzzle references and superseded asset IDs do not
+override them.
 
 ## Three-night note revision - 2026-10-21
 AS-026 is the current note, using the user's warm prose and both prior sketches.

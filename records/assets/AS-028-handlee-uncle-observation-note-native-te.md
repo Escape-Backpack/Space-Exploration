@@ -13,6 +13,9 @@ tags: []
 ---
 
 ## Selected real font implemented - 2026-10-21
+Designer accepts this edition and confirms it belongs to the first puzzle (PZ-002),
+superseding earlier second-puzzle positioning. Physical playtest is still pending.
+
 Designer selects option 4, Handlee, from AS-027. PR-007 stores this selection.
 Rebuilt the note with real embedded native text, retaining the exact AS-026 prose,
 relative night order and two original pencil drawings. No ImageGen lettering.

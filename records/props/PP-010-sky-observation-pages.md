@@ -14,6 +14,10 @@ tags: []
 ---
 
 ## Native Handlee note - 2026-10-21
+Designer accepts this note for the first puzzle. Provide the AS-028 constellation
+note at the start with PP-011 and PP-012. Other observation-page distribution remains
+open; the recurring prop's general envelope field is therefore unchanged.
+
 AS-028 is the current constellation note, replacing AS-026. Real Handlee body
 text at 12 pt with 6 mm side margins; both pencil drawings and user-approved prose
 retained. See PR-007 for the selected handwriting font. The printed blank template

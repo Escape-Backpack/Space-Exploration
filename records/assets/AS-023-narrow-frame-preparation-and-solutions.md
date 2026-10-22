@@ -12,11 +12,11 @@ superseded_by:
 tags: []
 ---
 
-## Sequence correction - 2026-10-21
-Designer now identifies the constellation activity as puzzle two (PZ-002 current
-section). The guide's setup sentence about providing materials at the start is an
-older prototype assumption, not settled packing for the revised sequence. Use
-AS-025 for the revised note instead of AS-022. Map/frame geometry is unchanged.
+## Current setup - 2026-10-21
+Designer confirms the constellation activity is the first puzzle (PZ-002 current
+section), replacing the intervening second-puzzle placement. The guide's instruction
+to provide the materials at the start applies. Use the accepted AS-028 Handlee note
+instead of the guide's older note reference. Map/frame geometry is unchanged.
 
 ## Revised product - 2026-10-21
 Designer preparation instructions and reduced simultaneous-placement key for AS-021/AS-024, with AS-022 clue note. Covers custom page sizing, matching print scale, cut contours, reset and test gaps. Keep separate from player materials.
