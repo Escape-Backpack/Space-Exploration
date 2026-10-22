@@ -11,13 +11,19 @@ for:
 # Generator or tool used
 tool:
 # Path from the project folder once made, e.g. assets/star-chart.png
-file: assets/canadarm-mixed-clue-observation-preview.png
+file: assets/canadarm-observation-bob-v4-preview.png
 # Any related record IDs, e.g. [PZ-002, Q-004]
 links: [PZ-011]
 # Set to an ID when this record is replaced. It then moves to the Parked tab.
 superseded_by:
 tags: []
 ---
+
+## Signed version - 2026-10-22
+Current file is the uploaded signed-Bob edition. This replaces the unsigned
+preview/print copy; the original local production files remain available as history.
+Server download bytes verified against the new local source.
+
 
 Uploaded in the Studio by Claude.
 

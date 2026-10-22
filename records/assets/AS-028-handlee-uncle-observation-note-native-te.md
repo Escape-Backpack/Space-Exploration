@@ -6,11 +6,21 @@ status: built
 kind: print
 for: PP-010
 tool: ReportLab / embedded Handlee TTF / Poppler
-file: assets/space-puzzle-01-handlee-note-4x6.pdf
+file: assets/space-constellation-note-bob-v6.pdf
 links: []
 superseded_by:
 tags: []
 ---
+
+## Signed Bob edition - 2026-10-22
+Adds the requested Bob signature in Handlee 12 pt at the end. Existing prose,
+drawings, 4 x 6 size and 6 mm margins unchanged. Local production files are now
+output/pdf/uncle-note-v6-bob/Uncles_Observations_4x6.pdf and
+output/pdf/uncle-note-v6-bob/Uncles_Observations_Letter.pdf. Rebuild with
+source/build_bob_constellation_note_v6.py. Earlier v5 output is retained history.
+Current Studio file/preview/letter-copy records point to the uploaded signed files.
+Extracted text verified as old copy plus exactly one Bob; all three signature
+glyphs verified as native Handlee 12 pt. Both renders visually reviewed.
 
 ## Studio-hosted file - 2026-10-21
 The current PDF is uploaded to Studio file storage and verified byte-for-byte

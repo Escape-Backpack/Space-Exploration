@@ -13,6 +13,12 @@ superseded_by:
 tags: []
 ---
 
+## Signed observation cards - 2026-10-22
+The current constellation note AS-028 and Canadarm mockup AS-043 now end with
+Bob in real Handlee 12 pt. Exact-size, letter-print and Studio preview files are
+updated. Future populated uncle notes should use the same sign-off. The reusable
+blank observation form remains blank; no signature added to unused templates.
+
 ## Start-of-game Studio placement - 2026-10-21
 The first observation note AS-028 is provided at the start with PP-011 and PP-012.
 Its preview and printable PDFs are now uploaded to Studio. Additional observation

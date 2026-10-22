@@ -6,11 +6,21 @@ status: candidate
 kind: print
 for: PP-010
 tool: ReportLab / native Handlee / vector diagrams / Poppler
-file: assets/canadarm-mixed-clue-observation-4x6.pdf
+file: assets/canadarm-observation-bob-v4.pdf
 links: []
 superseded_by:
 tags: []
 ---
+
+## Signed Bob mockup - 2026-10-22
+Adds Bob at the bottom in real Handlee 12 pt. The checkpoint line/box moved up
+slightly to leave space. Other prose, diagrams and clues unchanged. Local output:
+output/pdf/canadarm-observation-v4-bob/Canadarm_Observation_Page_4x6.pdf and the
+companion Canadarm_Observation_Page_Letter.pdf. Builder:
+source/build_bob_canadarm_observation_v4.py. Prior unsigned v3 preserved.
+Current Studio PDF/preview/letter copy updated and byte-verified. Extracted text
+matches prior copy plus exactly one native Handlee 12 pt Bob. Both renders reviewed.
+This remains only the start/Test 1 mockup; no new gameplay approval or physical test.
 
 ## First-page layout mockup - 2026-10-22
 User asks to see the mixed-clue concept on a Sky Observations page. This candidate

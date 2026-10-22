@@ -11,13 +11,18 @@ for: PP-010
 # Generator or tool used
 tool:
 # Path from the project folder once made, e.g. assets/star-chart.png
-file: assets/space-puzzle-01-handlee-note-preview.png
+file: assets/space-constellation-note-bob-v6-preview.png
 # Any related record IDs, e.g. [PZ-002, Q-004]
 links: []
 # Set to an ID when this record is replaced. It then moves to the Parked tab.
 superseded_by:
 tags: []
 ---
+
+## Signed version - 2026-10-22
+Current file is the uploaded signed-Bob edition. This replaces the unsigned
+preview/print copy; the original local production files remain available as history.
+Server download bytes verified against the new local source.
 
 ## Current Studio file - 2026-10-21
 Uploaded from output/pdf/uncle-note-v5-handlee/Uncles_Observations_4x6.png. Studio download verified against local
