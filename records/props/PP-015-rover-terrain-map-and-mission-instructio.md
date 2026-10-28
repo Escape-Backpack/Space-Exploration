@@ -21,6 +21,12 @@ superseded_by:
 tags: []
 ---
 
+## Grid-route revision - 2026-10-28
+PZ-015 now defines the selected grid-route direction (sunlight, cargo mass, one-way slopes, rover/sample radiation limits; no repair shelter). Existing AS-059/060 player map and AS-061 key remain only the earlier trail-network prototype and do not implement these rules. Revised map/instructions not yet built; do not use v1 validation as evidence for new rules.
+
+Earlier prototype descriptions below are historical where they conflict with this revision.
+
+
 ## Prototype - 2026-10-28
 One Letter portrait sheet containing a fictional Mars survey trail map, legend and Bob's instructions. Player version: output/pdf/rover-route-v1/Rover_Terrain_Map_and_Instructions.pdf; PNG preview alongside. Native vector paths and IBM Plex Mono labels, native Handlee 12 pt mission text. Print at 100% / Actual size; no cutting or movable props required. Final dimensions, artwork style and packing remain proposals. Map is schematic fictional terrain, not an actual Mars navigation map.
 

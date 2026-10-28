@@ -32,6 +32,25 @@ superseded_by:
 tags: []
 ---
 
+## Grid-route revision - 2026-10-28
+Designer likes the route-planning idea but rejects the first map execution and requests more detail/complexity. Selected additions: sunlight/shade, sample weight, one-way slopes, radiation. Repair shelter rejected; do not add a repair/reset point. No new map produced yet.
+
+## Selected rule direction
+- Grid-based travel: moving one square uses 1 battery unit before cargo penalties.
+- Start with a full battery. Maximum capacity still unset.
+- Traversing a sun area gives +1 battery, capped at maximum capacity. Exact trigger (per entered square or per area crossed) and spend/charge timing remain unspecified.
+- Every 100 g of carried samples adds 1 battery usage per square. Sample weights and rounding for nonmultiples of 100 g remain unspecified; propose multiples of 100 g for simplicity, not yet a decision.
+- One-way slopes permitted as a route constraint; arrow direction must be unambiguous. No selected layout yet.
+- Rover may be exposed to radiation at most twice; each individual sample may be exposed at most once. Track exposure separately for each sample already collected; no shelter/repair reset. Exposure trigger (square or area traversal), pickup timing and sample handling still need clear definitions.
+
+## Consequences and open engineering details
+If sun supplies +1 per movement and recharge applies after spending movement energy, it offsets the base cost: empty rover net 0 in sun vs 1 shade; carrying100 g net1 vs2; carrying200 g net2 vs3. It does not replenish the moving rover's battery on net. This is a conditional arithmetic observation, not a selected event-timing rule. Clarify if actual net recharging is desired rather than reduced drain. No waiting/loitering recharge rule selected.
+
+Next prototype must specify orthogonal vs diagonal movement, radiation exposure units, sunlight trigger/timing, pickup rules and whether revisits are allowed. Old v1 no-revisit/no-recharge/12-unit/2-or4 trail-cost rules do not automatically carry forward. Site count, capacity, masses, extraction and route uniqueness must be engineered and checked together. Old candidate4726 is obsolete as evidence for the revised rules, answer stays blank, untested and hints unpublished. Scientific realism of radiation/cargo rules is simplified game behaviour, not a factual Mars claim.
+
+Earlier prototype descriptions below are historical where they conflict with this revision.
+
+
 ## Current prototype - 2026-10-28
 User requests a map with instructions to review. Candidate PP-015 supplies a fictional Mars trail network with lander start, station finish, four flagged sample sites and three ordinary junctions. Normal trails cost 2 battery units, rocky trails 4. Budget 12; visit all four sample sites, never revisit a location, finish at station. No recharging or off-trail travel. Read the large sample-site digits in visit order; small boxed numbers are travel costs. Costs cover a whole section between connected locations, in either direction. These are prototype rules, not newly approved final decisions.
 
