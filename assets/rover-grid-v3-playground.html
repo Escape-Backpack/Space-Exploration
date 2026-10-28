@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bob's rover · Route playground</title>
+<style>
+:root{color-scheme:light;--ink:#273f49;--muted:#65777a;--paper:#fffdf8;--line:#d6ddd7;--accent:#186c60;--danger:#9b3636}
+*{box-sizing:border-box}body{margin:0;background:#f0f1eb;color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}main{max-width:1120px;margin:auto;padding:24px}h1{font-size:26px;letter-spacing:-.6px;margin:0}h2{font-size:17px;margin:0 0 12px}.eyebrow{font:12px ui-monospace,monospace;letter-spacing:1.5px;color:var(--muted)}.intro{margin:5px 0 20px;color:var(--muted)}.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:16px}.kpi{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:15px 18px}.kpi .label{font-size:13px;color:var(--muted)}.value{font-size:29px;font-weight:650;font-variant-numeric:tabular-nums}.value small{font-size:16px;font-weight:400;color:var(--muted)}.detail{font-size:12px;color:var(--muted)}progress{appearance:none;width:100%;height:6px;border:0;display:block;margin:7px 0;background:#e8e8de;border-radius:9px;overflow:hidden}progress::-webkit-progress-bar{background:#e8e8de}progress::-webkit-progress-value{background:var(--accent)}progress::-moz-progress-bar{background:var(--accent)}.layout{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(270px,1fr);gap:16px;align-items:start}.panel{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px}.map-panel{padding:12px}svg{display:block;width:100%;height:auto}svg text{font-family:system-ui,sans-serif;user-select:none}svg .cell{cursor:default}svg .cell.adjacent{cursor:pointer}svg .cell.adjacent:hover .tile{stroke:var(--accent);stroke-width:3}.legend{display:flex;flex-wrap:wrap;gap:8px 15px;padding:0 10px 8px;font-size:12px;color:var(--muted)}.swatch{display:inline-block;width:12px;height:12px;vertical-align:-1px;border:1px solid #acb5b0;margin-right:5px}.sun{background:#fff0b5}.shade{background:#fff}.rad{background:#f5d7d5}.blocked{background:#d8d0c3}.status{padding:12px 14px;background:#edf4ef;border-radius:9px;min-height:72px;margin-bottom:14px;font-size:14px}.status[data-tone="error"]{background:#fbe8e6;color:#883232}.status[data-tone="success"]{background:#dcefe4;color:#19583b}.position{font-size:13px;color:var(--muted);margin-bottom:6px;font-variant-numeric:tabular-nums}.dpad{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;max-width:265px;margin:14px auto}.north{grid-column:2}.west{grid-column:1}.south{grid-column:2}.east{grid-column:3}button{font:inherit;cursor:pointer;border:1px solid #bccbc4;border-radius:8px;background:white;color:var(--ink);padding:9px 11px;touch-action:manipulation}button:hover:not(:disabled){border-color:var(--accent);background:#eff6f1}button:focus-visible{outline:3px solid #6ca99b;outline-offset:2px}button:disabled{opacity:.38;cursor:not-allowed}.actions{display:flex;gap:8px;margin-bottom:18px}.actions button{flex:1;font-size:14px}.hint{font-size:12px;text-align:center;color:var(--muted)}.sample-list{display:grid;gap:7px}.sample{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding:8px 0;font-size:13px}.sample .badge{display:inline-block;text-align:center;min-width:24px;border-radius:50%;border:1px solid #a65e3e;margin-right:5px}.sample .exposure{font-size:12px;color:var(--muted)}.warning{color:var(--danger)!important}.order{font:21px ui-monospace,monospace;letter-spacing:4px;margin:12px 0 3px}details{margin-top:15px;border-top:1px solid var(--line);padding-top:12px;font-size:13px}summary{cursor:pointer;font-weight:600}ul{padding-left:19px}li{margin:7px 0}.log-wrap{margin-top:16px}table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--line)}th{font-size:12px;color:var(--muted);font-weight:500}.table-scroll{max-height:270px;overflow:auto}thead{position:sticky;top:0;background:var(--paper)}.muted{color:var(--muted)}.footer{font-size:12px;color:var(--muted);margin-top:14px}@media(max-width:720px){main{padding:12px}.layout{grid-template-columns:1fr}.kpi{padding:11px}.value{font-size:25px}.kpis{gap:6px}.panel{padding:13px}.map-panel{padding:6px}.dpad{max-width:310px}h1{font-size:23px}th,td{padding:6px}}@media(prefers-reduced-motion:no-preference){button{transition:background .12s,opacity .12s}}
+</style>
+</head>
+<body><main id="rover-app">
+<div class="eyebrow">SECTOR K-17 / DESIGN PLAYGROUND</div>
+<h1>Bob's rover expedition</h1>
+<p class="intro">Collect all four samples and reach the station. Try a route with the buttons, arrow keys or adjacent squares.</p>
+<section class="kpis" aria-label="Rover metrics">
+ <div class="kpi"><div class="label">Battery</div><div class="value"><span id="battery">30</span> <small>/ 30</small></div><progress id="battery-meter" max="30" value="30" aria-label="Battery remaining"></progress><div id="energy-detail" class="detail">Next move costs 1</div></div>
+ <div class="kpi"><div class="label">Rover radiation</div><div class="value"><span id="radiation">0</span> <small>/ 2</small></div><div id="radiation-detail" class="detail">2 exposures available</div></div>
+ <div class="kpi"><div class="label">Cargo weight</div><div class="value"><span id="weight">0</span> <small>g</small></div><div id="cargo-detail" class="detail">0 / 4 samples aboard</div></div>
+</section>
+<div class="layout">
+ <section class="panel map-panel" aria-label="Terrain map"><svg id="map" viewBox="0 0 540 540" role="img" aria-label="Interactive five by five terrain grid"></svg>
+ <div class="legend"><span><i class="swatch sun"></i>Sun +1</span><span><i class="swatch shade"></i>Shade</span><span><i class="swatch rad"></i>R Radiation</span><span><i class="swatch blocked"></i>Blocked</span><span>→ One-way border</span></div></section>
+ <section class="panel" aria-label="Rover controls">
+  <div id="position" class="position"></div><div id="status" class="status" role="status" aria-live="polite"></div>
+  <div class="dpad" aria-label="Movement controls"><button class="north" data-dir="up" aria-label="Move north">↑ North</button><button class="west" data-dir="left" aria-label="Move west">← West</button><button class="south" data-dir="down" aria-label="Move south">↓ South</button><button class="east" data-dir="right" aria-label="Move east">East →</button></div>
+  <p class="hint">Arrow keys or W / A / S / D also work.</p>
+  <div class="actions"><button id="undo">↶ Undo</button><button id="reset">Reset route</button></div>
+  <h2>Samples</h2><div id="samples" class="sample-list"></div>
+  <div class="detail" style="margin-top:12px">Pickup order</div><div id="pickup-order" class="order">—</div>
+  <details><summary>Rules for this version</summary><ul>
+   <li>Start with 30 battery. Move one square horizontally or vertically. No blocked squares or revisits.</li>
+   <li>Pay <strong>1 + 1 per 100 g aboard</strong> before moving. You must afford the full cost.</li>
+   <li>After entering a sun square, regain 1 battery, capped at 30. Waiting does not recharge.</li>
+   <li>Samples are picked up automatically. Their weight applies to the next move. No dropping samples.</li>
+   <li>Every entered R square adds one exposure to the rover and each sample already aboard. Rover limit: 2; each sample: 1.</li>
+   <li>Arrowed borders can only be crossed in the indicated direction. Other open borders work both ways.</li>
+   <li>Finish with all four samples. Undo and reset are testing controls.</li>
+  </ul></details>
+ </section>
+</div>
+<section class="panel log-wrap"><h2>Route log</h2><div class="table-scroll"><table><thead><tr><th>Move</th><th>Square</th><th>Spent</th><th>Sun +</th><th>Battery</th><th>Cargo</th><th>Rover R</th></tr></thead><tbody id="log"></tbody></table></div></section>
+<div class="footer">Local prototype · No installation, network connection or account required.</div>
+</main>
+<script>
+'use strict';
+const DATA = {"width":5,"height":5,"cells":[[0,0],[0,3],[0,4],[1,0],[1,1],[1,2],[1,3],[1,4],[2,0],[2,1],[2,2],[2,3],[2,4],[3,0],[3,2],[3,3],[4,0],[4,1],[4,2],[4,3]],"start":[0,4],"finish":[4,0],"samples":[{"cell":[2,0],"grams":200,"digit":4},{"cell":[4,2],"grams":100,"digit":7},{"cell":[1,1],"grams":100,"digit":2},{"cell":[1,0],"grams":100,"digit":6}],"radiation":[[1,4],[2,3],[3,2]],"sun":[[1,2],[1,3],[3,0],[4,1],[4,2],[4,3]],"slopes":[[[1,2],[2,2]],[[2,3],[3,3]]],"capacity":30};
+const key=p=>p.join(','),same=(a,b)=>key(a)===key(b),coord=p=>String.fromCharCode(65+p[0])+(p[1]+1);
+const cells=new Set(DATA.cells.map(key)),suns=new Set(DATA.sun.map(key)),radiationCells=new Set(DATA.radiation.map(key));
+const sampleMap=new Map(DATA.samples.map(s=>[key(s.cell),s]));
+const wrongWay=new Set(DATA.slopes.map(([a,b])=>key(b)+'>'+key(a)));
+const dirs={up:[0,-1],down:[0,1],left:[-1,0],right:[1,0]};
+const $=id=>document.getElementById(id),clone=o=>JSON.parse(JSON.stringify(o));
+let state,history=[];
+function fresh(){return {pos:[...DATA.start],battery:DATA.capacity,radiation:0,cargo:[],path:[[...DATA.start]],log:[{step:0,cell:coord(DATA.start),spent:0,sun:0,battery:DATA.capacity,weight:0,radiation:0}],outcome:null,message:'Ready at the lander. Choose your first move.',tone:'normal'};}
+const weight=()=>state.cargo.reduce((n,s)=>n+s.grams,0),cost=()=>1+weight()/100;
+function blockedReason(direction){
+ if(!dirs[direction])return 'Unknown direction.';
+ if(state.outcome)return 'Route ended. Undo a move or reset to try again.';
+ const d=dirs[direction],p=[state.pos[0]+d[0],state.pos[1]+d[1]];
+ if(p[0]<0||p[0]>=DATA.width||p[1]<0||p[1]>=DATA.height)return 'That move leaves the survey grid.';
+ if(!cells.has(key(p)))return coord(p)+' is blocked terrain.';
+ if(wrongWay.has(key(state.pos)+'>'+key(p)))return 'That slope border only allows travel in the opposite direction.';
+ if(state.path.some(v=>same(v,p)))return 'You have already visited '+coord(p)+'. No revisits.';
+ if(state.battery<cost())return 'Not enough battery: this move costs '+cost()+' before any solar credit.';
+ return '';
+}
+function move(direction){
+ const reason=blockedReason(direction);
+ if(reason){state.message=reason;state.tone='error';render();return false;}
+ history.push(clone(state));
+ const d=dirs[direction],p=[state.pos[0]+d[0],state.pos[1]+d[1]],spent=cost();
+ state.battery-=spent;state.pos=p;state.path.push([...p]);
+ const solar=suns.has(key(p))?Math.min(1,DATA.capacity-state.battery):0;state.battery+=solar;
+ let events=['Spent '+spent+' battery'+(solar?', solar +'+solar:'')+'.'];
+ if(radiationCells.has(key(p))){state.radiation++;state.cargo.forEach(s=>s.exposure++);events.push('Radiation +1'+(state.cargo.length?' to rover and carried samples.':' to rover.'));}
+ const sample=sampleMap.get(key(p));
+ if(sample){state.cargo.push({digit:sample.digit,grams:sample.grams,exposure:0});events.push('Collected sample '+sample.digit+' ('+sample.grams+' g).');}
+ state.log.push({step:state.path.length-1,cell:coord(p),spent,sun:solar,battery:state.battery,weight:weight(),radiation:state.radiation});
+ const damaged=state.cargo.filter(s=>s.exposure>1);
+ if(state.radiation>2||damaged.length){state.outcome='failed';events.push(state.radiation>2?'Rover radiation limit exceeded.':'Sample '+damaged.map(s=>s.digit).join(', ')+' exceeded its radiation limit.');state.tone='error';}
+ else if(same(p,DATA.finish)){
+  if(state.cargo.length===DATA.samples.length){state.outcome='won';events.push('Mission complete! Pickup code: '+state.cargo.map(s=>s.digit).join('')+'.');state.tone='success';}
+  else{state.outcome='failed';events.push('Reached the station without all four samples.');state.tone='error';}
+ }else{state.tone='normal';}
+ state.message=events.join(' ');
+ if(!state.outcome&&Object.keys(dirs).every(d=>blockedReason(d))){state.outcome='failed';state.tone='error';state.message+=' No legal moves remain. Undo or reset to try another route.';}
+ render();return true;
+}
+function undo(){if(history.length){state=history.pop();state.message='Move undone. Continue from '+coord(state.pos)+'.';state.tone='normal';render();}}
+function reset(){history=[];state=fresh();render();}
+const NS='http://www.w3.org/2000/svg';
+function el(tag,attrs={},content){const n=document.createElementNS(NS,tag);for(const[k,v]of Object.entries(attrs))n.setAttribute(k,v);if(content!==undefined)n.textContent=content;return n;}
+function drawMap(){
+ const svg=$('map');svg.replaceChildren();
+ const defs=el('defs'),marker=el('marker',{id:'slope-head',viewBox:'0 0 10 10',refX:8,refY:5,markerWidth:5,markerHeight:5,orient:'auto'});marker.append(el('path',{d:'M 0 0 L 10 5 L 0 10 z',fill:'#a25d3a'}));defs.append(marker);svg.append(defs);
+ const g=90,ox=48,oy=48,xy=p=>[ox+(p[0]+.5)*g,oy+(p[1]+.5)*g];
+ for(let i=0;i<5;i++){svg.append(el('text',{x:ox+(i+.5)*g,y:30,'text-anchor':'middle',fill:'#65777a','font-size':13},String.fromCharCode(65+i)));svg.append(el('text',{x:27,y:oy+(i+.5)*g+5,'text-anchor':'middle',fill:'#65777a','font-size':13},i+1));}
+ for(let y=0;y<5;y++)for(let x=0;x<5;x++){
+  const p=[x,y],k=key(p),[cx,cy]=xy(p),valid=cells.has(k),sun=suns.has(k),rad=radiationCells.has(k),visited=state.path.some(v=>same(v,p));
+  const dir=Object.keys(dirs).find(d=>same([state.pos[0]+dirs[d][0],state.pos[1]+dirs[d][1]],p));
+  const allowed=dir&&!blockedReason(dir),group=el('g',{class:'cell'+(allowed?' adjacent':''),'data-cell':coord(p)});
+  group.append(el('rect',{class:'tile',x:ox+x*g,y:oy+y*g,width:g,height:g,fill:!valid?'#d8d0c3':rad?'#f5d7d5':sun?'#fff0b5':'#fff',stroke:'#b8c1be','stroke-width':1}));
+  if(visited)group.append(el('rect',{x:ox+x*g+3,y:oy+y*g+3,width:g-6,height:g-6,rx:4,fill:'none',stroke:'#298575','stroke-width':2,'stroke-dasharray':'3 3'}));
+  if(!valid){group.append(el('path',{d:`M${cx-22} ${cy+12}l12-25 12 19 11-11 13 17z`,fill:'none',stroke:'#aa9e8b','stroke-width':1.4}));}
+  if(sun){group.append(el('circle',{cx:cx+29,cy:cy-29,r:5,fill:'none',stroke:'#a25d3a'}));for(let a=0;a<8;a++){const t=a*Math.PI/4;group.append(el('line',{x1:cx+29+8*Math.cos(t),y1:cy-29+8*Math.sin(t),x2:cx+29+11*Math.cos(t),y2:cy-29+11*Math.sin(t),stroke:'#a25d3a'}));}}
+  if(rad){group.append(el('circle',{cx,cy:cy-5,r:11,fill:'none',stroke:'#a25d3a'}));group.append(el('text',{x:cx,y:cy,'text-anchor':'middle',fill:'#a25d3a','font-size':14},'R'));group.append(el('text',{x:cx,y:cy+23,'text-anchor':'middle',fill:'#a25d3a','font-size':10},'RADIATION'));}
+  const sample=sampleMap.get(k),aboard=sample&&state.cargo.some(s=>s.digit===sample.digit);
+  if(sample){group.append(el('circle',{cx,cy:cy-7,r:19,fill:'#fffdf8',stroke:aboard?'#298575':'#a25d3a','stroke-width':1.5}));group.append(el('text',{x:cx,y:cy+1,'text-anchor':'middle',fill:aboard?'#298575':'#a25d3a','font-size':23},aboard?'✓':sample.digit));group.append(el('text',{x:cx,y:cy+28,'text-anchor':'middle',fill:'#273f49','font-size':12},sample.grams+' g'));}
+  if(same(p,DATA.start)||same(p,DATA.finish)){group.append(el('text',{x:cx,y:cy-3,'text-anchor':'middle',fill:'#273f49','font-size':12,'font-weight':600},same(p,DATA.start)?'START':'FINISH'));group.append(el('text',{x:cx,y:cy+16,'text-anchor':'middle',fill:'#65777a','font-size':10},same(p,DATA.start)?'LANDER':'STATION'));}
+  const title=el('title',{},coord(p)+': '+(!valid?'blocked':rad?'radiation':sun?'sunlit':'shade')+(sample?', sample '+sample.digit+', '+sample.grams+' g':'')+(visited?', visited':'')+(dir?', '+(blockedReason(dir)||'click to move here'):''));group.prepend(title);
+  if(allowed){group.setAttribute('tabindex','0');group.setAttribute('role','button');group.setAttribute('aria-label','Move to '+coord(p));group.addEventListener('click',()=>move(dir));group.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();move(dir);}});}
+  svg.append(group);
+ }
+ if(state.path.length>1){svg.append(el('polyline',{points:state.path.map(xy).map(p=>p.join(',')).join(' '),fill:'none',stroke:'#186c60','stroke-width':4,opacity:.26,'pointer-events':'none','stroke-linecap':'round','stroke-linejoin':'round'}));}
+ for(const[a,b]of DATA.slopes){const p=xy(a),q=xy(b),mx=(p[0]+q[0])/2,my=(p[1]+q[1])/2,ux=(q[0]-p[0])/g,uy=(q[1]-p[1])/g;svg.append(el('rect',{x:mx-15,y:my-15,width:30,height:30,rx:5,fill:'#fffdf8',stroke:'#65777a','pointer-events':'none'}));svg.append(el('line',{x1:mx-10*ux,y1:my-10*uy,x2:mx+10*ux,y2:my+10*uy,stroke:'#a25d3a','stroke-width':2.5,'marker-end':'url(#slope-head)','pointer-events':'none'}));}
+ const[cx,cy]=xy(state.pos),rover=el('g',{'pointer-events':'none','aria-label':'Rover at '+coord(state.pos)});
+ // Offset the rover towards the cell corner so its location label remains visible.
+ rover.append(el('rect',{x:cx-35,y:cy-37,width:24,height:18,rx:5,fill:'#186c60',stroke:'white','stroke-width':2}));
+ for(const yy of[-35,-23])for(const xx of[-37,-12])rover.append(el('rect',{x:cx+xx,y:cy+yy,width:4,height:6,rx:1,fill:'#273f49'}));svg.append(rover);
+}
+function render(){
+ $('battery').textContent=state.battery;$('battery-meter').value=state.battery;$('radiation').textContent=state.radiation;$('weight').textContent=weight();
+ $('energy-detail').textContent='Next move costs '+cost()+' · sun returns 1';
+ $('radiation-detail').textContent=state.radiation>2?'Exposure limit exceeded':(2-state.radiation)+' exposure'+(2-state.radiation===1?'':'s')+' available';
+ $('radiation').className=state.radiation>2?'warning':'';$('cargo-detail').textContent=state.cargo.length+' / 4 samples aboard';
+ $('position').textContent='Position '+coord(state.pos)+' · '+(state.path.length-1)+' moves';$('status').textContent=state.message;$('status').dataset.tone=state.tone;
+ document.querySelectorAll('[data-dir]').forEach(b=>{const reason=blockedReason(b.dataset.dir);b.disabled=Boolean(reason);b.title=reason||'Move '+b.dataset.dir;});$('undo').disabled=!history.length;
+ $('samples').replaceChildren();for(const s of DATA.samples){const aboard=state.cargo.find(v=>v.digit===s.digit),row=document.createElement('div');row.className='sample';const name=document.createElement('span');name.innerHTML='<span class="badge">'+s.digit+'</span>'+s.grams+' g · '+coord(s.cell);const detail=document.createElement('span');detail.className='exposure'+(aboard&&aboard.exposure>1?' warning':'');detail.textContent=aboard?'Aboard · R '+aboard.exposure+'/1':'Not collected';row.append(name,detail);$('samples').append(row);}
+ $('pickup-order').textContent=state.cargo.length?state.cargo.map(s=>s.digit).join(' '):'—';
+ $('log').replaceChildren();for(const r of state.log){const tr=document.createElement('tr');for(const v of[r.step,r.cell,r.step?r.spent:'—',r.step?r.sun:'—',r.battery,r.weight+' g',r.radiation]){const td=document.createElement('td');td.textContent=v;tr.append(td);}$('log').append(tr);}
+ drawMap();
+}
+document.querySelectorAll('[data-dir]').forEach(b=>b.addEventListener('click',()=>move(b.dataset.dir)));$('undo').addEventListener('click',undo);$('reset').addEventListener('click',reset);
+document.addEventListener('keydown',e=>{if(e.altKey||e.ctrlKey||e.metaKey||/INPUT|TEXTAREA|SELECT/.test(e.target.tagName)||e.target.isContentEditable)return;const d={ArrowUp:'up',ArrowDown:'down',ArrowLeft:'left',ArrowRight:'right',w:'up',s:'down',a:'left',d:'right'}[e.key];if(d){e.preventDefault();if(!e.repeat)move(d);}});
+window.roverGame={move,undo,reset,getState:()=>clone(state),canMove:direction=>!blockedReason(direction)};
+reset();
+</script></body></html>
