@@ -32,6 +32,16 @@ superseded_by:
 tags: []
 ---
 
+## Current 30-unit grid v3 - 2026-10-28
+Designer selects 30 as battery capacity, rejecting75 as excessive bookkeeping. Map redesigned to5x5,20open squares, four samples (three100g,one200g), six sun squares, three radiation squares and two one-way slope borders. User's cost model, solar trigger, per-rover/per-sample radiation limits and no-revisit/orthogonal/pickup rules unchanged. AS-065 player sheet, AS-066 preview, AS-067 designer key replace v2. Fourteen moves rather than21; valid route uses29netbattery, arrives with1 remaining. Capacity30 is explicitly selected; exact map/layout/masses and code remain candidate. No game placement/envelope assigned.
+
+Exhaustive no-cutoff stateful search finds one valid route. Rule-removal results: no sun0 routes; no cargo penalty7; no radiation limits3; rover radiation limit only1 (per-sample limit prunes states but does not change the solution count here); ignore slopes2. Source data output/design/rover-grid-v3/grid.json and validator source/validate_rover_grid_v3.py. Builder source/build_rover_grid_v3.py; PDF/PNG/ledger output/pdf/rover-grid-v3/. Final player page and both designer pages rendered and visually inspected; text bounds checked. No physical/player test, test_status stays untested and hints unpublished.
+
+Designer-only candidate order:7,2,6,4 ->7264. Sample7 exposedonce; other sampleszero. Route A5,A4,B4,C4,D4,E4,E3,D3,C3,C2,B2,B1,C1,D1,E1. User has not selected the code; answer field remains blank. All current binaries uploaded/download-byte-verified.
+
+Earlier versions below are historical where they conflict with this revision.
+
+
 ## Current grid prototype v2 - 2026-10-28
 User requests a new map using the selected sun/cargo/slopes/radiation rules and the proposed orthogonal movement/pickup details. AS-062 player map, AS-063 preview and AS-064 designer key replace the first trail-network map. Fictional 7-column x 6-row terrain grid; 32 traversable cells, four samples (100/100/100/200 g), four radiation cells, ten sun cells and three directed slope borders. Candidate capacity75; not a designer-selected final capacity. All four samples required, start A6, finish G1. Keep answer blank and publish_hints no.
 

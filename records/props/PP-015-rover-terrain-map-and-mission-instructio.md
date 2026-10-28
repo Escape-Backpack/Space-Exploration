@@ -21,6 +21,12 @@ superseded_by:
 tags: []
 ---
 
+## Current 30-unit grid v3 - 2026-10-28
+Current map AS-065/preview AS-066 are the30-unit redesign requested by the designer.5x5grid,73ptcells, LandscapeLetter. Designer key AS-067 includes14-step battery/cargo/radiation ledger. Exact current rules/validation are in PZ-015. Old AS-062/063/064 superseded; previous75-unit sheet not current. Print100%/Actualsize. No physical/player test or envelope assignment.
+
+Earlier versions below are historical where they conflict with this revision.
+
+
 ## Current grid prototype v2 - 2026-10-28
 Current sheet AS-062 and preview AS-063 implement the grid rules in PZ-015. Landscape Letter11x8.5in, seven by six61ptcells, map on left and Bob mission instructions on right. Print at100%/Actual size. Radiation marked R/RAD, sun icon, blocked rockytexture and directional border arrows supplement colour. Four circle digits with100/200g labels. AS-064 is designer-only with route/ledger. Old AS-059/060/061 superseded. Final capacity/dimensions/layout/art remain candidate; no playtest or envelope assigned. Sources and digital verification are in PZ-015.
 
