@@ -32,6 +32,22 @@ superseded_by:
 tags: []
 ---
 
+## Revisits allowed - current v4, 2026-10-28
+Designer explicitly removes the no-revisit rule. Keep the existing5x5 map,30-unit battery, slopes, per100g movement cost and radiation limits. Each entered square applies its movement cost and sun/radiation effects every time, even if visited before. Each sample is automatically collected ONCE; revisits do not duplicate weight, change pickup order or reset its radiation exposure. No sample dropping, waiting recharge or repair shelter. Existing end-at-station behaviour unchanged.
+
+Current files: AS-069 player PDF, AS-070 preview, AS-071 example-route key/ledger, AS-072 interactive HTML. The standalone HTML remains output/html/rover-playground/index.html so refreshing the already-open local page loads the change. Studio old versions AS-065/066/067/068 superseded. Template source/rover-playground.html and builder source/build_rover_playground.py now read v4 grid data.
+
+Validation must track resource states rather than mark cells visited. Source/validate_rover_grid_v4.py exhaustively searches9039 unique states (position,battery,rover exposure,eachsample exposure/collection state,pickuporder), merging identical full states to handle zero-cost empty-rover sun loops. No arbitrary move cutoff. Two successful terminal RESOURCE states, one successful pickup order7264. This is not a count of distinct walking paths: revisits allow multiple walks and repeatable zero-cost sun loops. Original14-move walk remains a feasible example, finishes with1battery; do not claim a unique route. Candidate code remains unassigned in answer field.
+
+Browser regression helper tmp/test_rover_playground_v4.cjs: originalledger agreement, allowed backtracking and repeated sun effects, radiation counted on re-entry, sample not repicked and damage retained after return, slope/blocked/energy checks, undo/reset, win/failure, mobile390pxnooverflow, zeroJSerrors. Controlledfixtures cover insufficientbattery andsampledamagefailure. Source/build_rover_grid_v4.py rebuilds player rules and designer example; all3PDFpages rendered/inspected and textbounds checked. Current files in output/pdf/rover-grid-v4/, data output/design/rover-grid-v4/grid.json. Physical/player test remains untested, hints unpublished.
+
+Earlier no-revisit rules and unique-path claims below are superseded.
+
+
+## Interactive playground - 2026-10-28
+AS-068 provides the existing30-unit grid as an offline designer simulator. Live battery/radiation/weight and sample exposure, movement buttons/keyboard/clicks, undo/reset and route log. Map/rules unchanged. Source, checks and access details in AS-068. Physical/player testing remains pending; no public hint release.
+
+
 ## Current 30-unit grid v3 - 2026-10-28
 Designer selects 30 as battery capacity, rejecting75 as excessive bookkeeping. Map redesigned to5x5,20open squares, four samples (three100g,one200g), six sun squares, three radiation squares and two one-way slope borders. User's cost model, solar trigger, per-rover/per-sample radiation limits and no-revisit/orthogonal/pickup rules unchanged. AS-065 player sheet, AS-066 preview, AS-067 designer key replace v2. Fourteen moves rather than21; valid route uses29netbattery, arrives with1 remaining. Capacity30 is explicitly selected; exact map/layout/masses and code remain candidate. No game placement/envelope assigned.
 

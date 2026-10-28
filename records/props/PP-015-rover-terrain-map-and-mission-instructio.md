@@ -21,6 +21,12 @@ superseded_by:
 tags: []
 ---
 
+## Revisits allowed - current v4, 2026-10-28
+PZ-015 now permits revisiting squares. Updated player map AS-069 and preview AS-070 replace v3. New designer example AS-071 removes unique-path claims; current HTML AS-072 allows backtracking and only collects each sample once without resetting damage. Physical map, capacity, samplemasses and costs unchanged. Print100%/Actualsize; no playtest or envelope assignment.
+
+Earlier no-revisit rules and unique-path claims below are superseded.
+
+
 ## Current 30-unit grid v3 - 2026-10-28
 Current map AS-065/preview AS-066 are the30-unit redesign requested by the designer.5x5grid,73ptcells, LandscapeLetter. Designer key AS-067 includes14-step battery/cargo/radiation ledger. Exact current rules/validation are in PZ-015. Old AS-062/063/064 superseded; previous75-unit sheet not current. Print100%/Actualsize. No physical/player test or envelope assignment.
 
