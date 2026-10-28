@@ -32,6 +32,12 @@ superseded_by:
 tags: []
 ---
 
+## Configurable map workshop and slope rules - 2026-10-28
+Designer rejects the shortest-route workaround and requests a creation tool. AS-073 implements configurable5–10columns/rows, sharedbase option, layeredterrain,4sampleweights and battery/radiation/solar settings with manualplaytesting. No shortest-route objective introduced. New selected rules: uphill2x movementusage, downhill0. Editor implementation uses destination-square ground and doubles the full loaded cost before solar credit; sunlight/radiation can overlap either slope. Directional one-way border arrows remain a separate optional layer.
+
+This creates a design tool, not a newly selected finalmap/code/capacity. Fixedv4 remains the seed and existingprintable until designer chooses an exportedmap. Interactive editor startsfull, permitsrevisits, picks up each sample once with damage retained. Test mission finishes only with all4aboard; sharedbase works asout-and-return. See AS-073 for files, behaviour andsoftwarechecks. No newsolvability/uniqueness claim for user-editedmaps; physical/player test remains pending and hints unpublished.
+
+
 ## Revisits allowed - current v4, 2026-10-28
 Designer explicitly removes the no-revisit rule. Keep the existing5x5 map,30-unit battery, slopes, per100g movement cost and radiation limits. Each entered square applies its movement cost and sun/radiation effects every time, even if visited before. Each sample is automatically collected ONCE; revisits do not duplicate weight, change pickup order or reset its radiation exposure. No sample dropping, waiting recharge or repair shelter. Existing end-at-station behaviour unchanged.
 
