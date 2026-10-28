@@ -21,6 +21,12 @@ superseded_by:
 tags: []
 ---
 
+## Current grid prototype v2 - 2026-10-28
+Current sheet AS-062 and preview AS-063 implement the grid rules in PZ-015. Landscape Letter11x8.5in, seven by six61ptcells, map on left and Bob mission instructions on right. Print at100%/Actual size. Radiation marked R/RAD, sun icon, blocked rockytexture and directional border arrows supplement colour. Four circle digits with100/200g labels. AS-064 is designer-only with route/ledger. Old AS-059/060/061 superseded. Final capacity/dimensions/layout/art remain candidate; no playtest or envelope assigned. Sources and digital verification are in PZ-015.
+
+Earlier versions below are historical where they conflict with this revision.
+
+
 ## Grid-route revision - 2026-10-28
 PZ-015 now defines the selected grid-route direction (sunlight, cargo mass, one-way slopes, rover/sample radiation limits; no repair shelter). Existing AS-059/060 player map and AS-061 key remain only the earlier trail-network prototype and do not implement these rules. Revised map/instructions not yet built; do not use v1 validation as evidence for new rules.
 

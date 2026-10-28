@@ -15,7 +15,7 @@ file: assets/rover-route-v1-designer-key.pdf
 # Any related record IDs, e.g. [PZ-002, Q-004]
 links: [PZ-015]
 # Set to an ID when this record is replaced. It then moves to the Parked tab.
-superseded_by:
+superseded_by: AS-064
 tags: []
 ---
 

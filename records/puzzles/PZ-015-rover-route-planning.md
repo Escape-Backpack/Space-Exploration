@@ -32,6 +32,18 @@ superseded_by:
 tags: []
 ---
 
+## Current grid prototype v2 - 2026-10-28
+User requests a new map using the selected sun/cargo/slopes/radiation rules and the proposed orthogonal movement/pickup details. AS-062 player map, AS-063 preview and AS-064 designer key replace the first trail-network map. Fictional 7-column x 6-row terrain grid; 32 traversable cells, four samples (100/100/100/200 g), four radiation cells, ten sun cells and three directed slope borders. Candidate capacity75; not a designer-selected final capacity. All four samples required, start A6, finish G1. Keep answer blank and publish_hints no.
+
+Implementation rules printed on sheet: no diagonal moves, blocked cells, square revisits, waiting recharge or sample dropping. Pay 1 plus carried grams/100 BEFORE entering a square; must afford entire cost. Then sun gives+1 capped75. Pickup on arrival; new weight counts from next move. Entered radiation square adds1 rover exposure and1 to each sample already aboard; limits2 rover/1 eachsample. Arrows restrict crossing only their specific shared border; all other open shared borders bidirectional. These are prototype implementation choices explicitly stated for review; no repair shelter.
+
+Exhaustive stateful DFS with no arbitrary length cutoff finds exactly1 valid route. Five removal checks confirm rule effects: no sun credit0 routes; no cargo penalty2; no radiation limits14; rover radiation limit only3; ignore arrows6. Geometry/data output/design/rover-grid-v2/grid.json; validator source/validate_rover_grid_v2.py; builder source/build_rover_grid_v2.py; PDF/PNG/ledger output/pdf/rover-grid-v2/. The valid21-move route uses75netenergy, arrives0, rover2exposures. Samples4 and2 each exposedonce,6 and7 zero. Candidate pickup code4267 replaces the old illustrative4726 but remains unassigned.
+
+Player sheet is Landscape Letter with native Handlee11.5/12pt instruction text, labelled cell coordinates, symbol+colour terrain, weights and slope arrows. Designer key has route on page1 and per-move resource ledger on portraitLetter page2. All three final pages rendered and visually inspected; native text bounds checked. Studio binaries uploaded/download-byte-verified. No physical/player test; test_status stays untested. Review complexity/bookkeeping and terrain art before final production.
+
+Earlier versions below are historical where they conflict with this revision.
+
+
 ## Grid-route revision - 2026-10-28
 Designer likes the route-planning idea but rejects the first map execution and requests more detail/complexity. Selected additions: sunlight/shade, sample weight, one-way slopes, radiation. Repair shelter rejected; do not add a repair/reset point. No new map produced yet.
 
