@@ -21,6 +21,10 @@ superseded_by:
 tags: []
 ---
 
+## Realistic orbital style concept - 2026-10-29
+User asks to try a more realistic NASA-like missionmap. AS-076 explores generated orbital terrain with technical overlays instead of the flatChurchill illustration. Fictional simulatedterrain; a stylepreview, not officialNASAimagery/data or a calibrated print replacement. Exactprompt/localfile in AS-076. Mapeditor and currentplayerPDF unchanged.
+
+
 ## Cartographic style proposal - 2026-10-29
 AS-074 (preview) / AS-075 (nativeSVG) explore the Churchillmap visualstyle on the unchanged fixedv4 roverlayout. More continuous landforms, mutedMars palette, crater/contour details, iconbadges, compass andlegend. This is a requested proposal forreview, not a chosen replacement forAS-069 or mapeditorAS-073.
 
