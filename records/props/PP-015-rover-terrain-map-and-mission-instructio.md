@@ -21,6 +21,10 @@ superseded_by:
 tags: []
 ---
 
+## Cartographic style proposal - 2026-10-29
+AS-074 (preview) / AS-075 (nativeSVG) explore the Churchillmap visualstyle on the unchanged fixedv4 roverlayout. More continuous landforms, mutedMars palette, crater/contour details, iconbadges, compass andlegend. This is a requested proposal forreview, not a chosen replacement forAS-069 or mapeditorAS-073.
+
+
 ## Revisits allowed - current v4, 2026-10-28
 PZ-015 now permits revisiting squares. Updated player map AS-069 and preview AS-070 replace v3. New designer example AS-071 removes unique-path claims; current HTML AS-072 allows backtracking and only collects each sample once without resetting damage. Physical map, capacity, samplemasses and costs unchanged. Print100%/Actualsize; no playtest or envelope assignment.
 
