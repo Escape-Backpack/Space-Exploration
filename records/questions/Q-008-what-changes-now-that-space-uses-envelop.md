@@ -3,17 +3,22 @@ id: Q-008
 title: What changes now that Space uses envelopes instead of locks?
 type: question
 # open | answered | parked
-status: open
+status: answered
 # Records this question is about, e.g. [PZ-003]
 about: [PZ-002, PZ-001, PP-009, PP-008, PR-003, Q-006]
 # Leave empty while open
-answer:
+answer: Numbered envelopes showing each puzzle's 3-4 digit answer, no cipher (PR-008). Opening answer 698. Backpack/lock/tag leftovers parked or rewritten.
 # Any related record IDs, e.g. [PZ-002, Q-004]
 links: []
 # Set to an ID when this record is replaced. It then moves to the Parked tab.
 superseded_by:
 tags: []
 ---
+
+## Current answer - 2026-11-20
+Answered: envelopes are numbered with each puzzle's 3-4 digit answer, no cipher (PR-008).
+The opening puzzle PZ-002 answers 698. The backpack (PP-009) and its purchase question
+(Q-006) are parked; PR-003 now counts puzzles rather than locks.
 
 ## Current update - 2026-10-21
 The designer chose direct answer codes on envelopes, without a cipher (PR-008),

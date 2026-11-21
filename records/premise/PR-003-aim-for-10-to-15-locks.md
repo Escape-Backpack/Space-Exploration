@@ -1,6 +1,6 @@
 ---
 id: PR-003
-title: Aim for 10 to 15 locks
+title: Aim for 10 to 15 puzzles
 type: premise
 # idea | candidate | decided | built | parked
 status: idea
@@ -13,5 +13,8 @@ superseded_by:
 tags: []
 ---
 
-Target size: 10 to 15 locks to solve.
-Lock types come from the kit's default set (see backpack-kit GUIDE.md).
+## Current - 2026-11-20
+Target size: 10 to 15 puzzles to solve, each opening a numbered envelope.
+
+## Earlier phrasing
+This was earlier phrased as 10 to 15 locks, with lock types from the kit's default set.

@@ -3,7 +3,7 @@ id: PP-009
 title: The backpack
 type: prop
 # idea | candidate | decided | built | parked
-status: idea
+status: parked
 # physical | printed | digital
 form: physical
 # make | buy | print | 3d-print
@@ -17,6 +17,9 @@ links: []
 superseded_by:
 tags: []
 ---
+
+## Parked - 2026-11-20
+The container is now a box of numbered envelopes (PR-008). This prop is not used.
 
 ## Current format
 The older backpack/locked-compartment container is a historical concept. Current

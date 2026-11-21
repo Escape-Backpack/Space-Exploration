@@ -9,6 +9,11 @@ superseded_by:
 tags: []
 ---
 
+## Current - 2026-11-20
+The designer chose numbered envelopes: each envelope shows its puzzle's 3 or 4 digit
+answer. backpack.json is migrated to plain digits 0-9, answer lengths 3-4, 2 decoys.
+The tooling follow-through below is done.
+
 ## Designer decision - 2026-10-21
 Space uses printed documents and envelopes. Each envelope is marked with the correct
 answer code the players should have found. There is no cipher, symbol translation,

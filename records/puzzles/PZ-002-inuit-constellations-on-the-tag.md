@@ -16,13 +16,20 @@ mechanic: counting
 difficulty: 1
 test_status: untested
 publish_hints: no
-answer:
+answer: 698
 # Any related record IDs, e.g. [PZ-002, Q-004]
 links: [Q-005, AS-002]
 # Set to an ID when this record is replaced. It then moves to the Parked tab.
 superseded_by:
 tags: []
 ---
+
+## Current answer - 2026-11-20
+Envelopes are numbered with the answer (PR-008). The answer is **698**.
+
+## Solution
+The window counts are Lyra 6, Cygnus 9 and Aquila 8. Ordered by the uncle's three
+observing nights (Q-009), they give 698. Players open envelope 698.
 
 ## Current position: first puzzle - 2026-10-21
 Designer confirms this constellation activity is the **first puzzle**. This replaces
