@@ -8,7 +8,7 @@ for: PP-012
 tool: ReportLab / Shapely / Poppler
 file: assets/space-puzzle-01-frame-cutting-sheet.pdf
 links: []
-superseded_by:
+superseded_by: AS-081
 tags: []
 ---
 

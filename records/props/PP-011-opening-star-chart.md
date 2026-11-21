@@ -16,7 +16,7 @@ tags: []
 ## Current: flyer chart - 2026-11-21
 The player chart is now AS-078, a 5.5 x 8.5 inch flyer (standard size, PR-010). It replaces the
 8-inch square AS-021. Same plain face: dots, graticule and star-name labels only. The frames
-(AS-024) are unchanged and still fit together on it. AS-079 is the designer key.
+(AS-081, earlier AS-024) are unchanged and still fit together on it. AS-079 is the designer key.
 Digital checks pass; physical test still pending.
 
 ## Earlier: plain 8 x 8 board - 2026-10-21 (superseded by AS-078)

@@ -26,9 +26,9 @@ portrait page, one exact-size picture per page, print at 100% / Actual size.
 ## Where the game does not match yet
 Not yet checked item by item. Known so far: the star chart is now a 5.5 x 8.5 flyer
 (AS-078, replacing the 8 x 8 AS-021) and the observation note (AS-028) is a 4 x 6 postcard.
-The frame sheet (AS-024) is a full Letter page of cardstock.
+The frame sheet (AS-081) is a full Letter page of cardstock.
 
 ## Test prints - 2026-11-21
 The designer prints test copies at home on Letter paper and cuts them to size. So the frame
-sheet (AS-024) stays a full Letter page, and the flyer chart and postcard note are printed
+sheet (AS-081) stays a full Letter page, and the flyer chart and postcard note are printed
 centred on Letter with a trim outline.

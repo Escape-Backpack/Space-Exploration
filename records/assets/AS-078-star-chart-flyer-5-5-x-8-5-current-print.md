@@ -7,7 +7,7 @@ kind: print
 for: PP-011
 tool: ReportLab / Shapely / PyMuPDF
 file: assets/space-puzzle-01-star-chart-flyer-5.5x8.5.pdf
-links: [PZ-002, PR-010, AS-024]
+links: [PZ-002, PR-010, AS-081]
 superseded_by:
 tags: []
 ---
@@ -20,7 +20,7 @@ print/Print_Space_StarChart_Flyer_5.5x8.5.docx (local print master, same structu
 Preview: assets/space-puzzle-01-star-chart-flyer-5.5x8.5-preview.png.
 
 ## What changed from AS-021
-- The frames (AS-024) are unchanged: same positions, same 18% enlargement, same 7.5 mm bands.
+- The frame shapes (AS-024 / AS-081) are unchanged: same positions, same 18% enlargement, same 7.5 mm bands.
   Together they measure 4.51 x 7.79 in, so no shrinking was needed.
 - The chart is a 396 x 612 pt window around the frames, with about 0.49 in side and 0.36 in
   top/bottom margin around them. Stars from AS-021 inside the window are identical.

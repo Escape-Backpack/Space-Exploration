@@ -25,7 +25,7 @@ answer-marked envelopes replace the earlier luggage-tag/colour-lock mechanism (P
 
 The first puzzle is PZ-002, using three separate current player materials:
 - PP-011: square star chart (AS-021).
-- PP-012: the three narrow constellation frames (AS-024).
+- PP-012: the three narrow constellation frames (AS-081).
 - PP-010: the accepted Handlee observation note (AS-028).
 
 The old coloured Inuit star artwork AS-002 is superseded and must not be used for

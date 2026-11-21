@@ -14,7 +14,7 @@ tags: []
 ---
 
 ## Plain board and simultaneous frames - 2026-10-21
-Current print file is AS-024. Designer replaces the rectangular cards with narrow
+Current print file is AS-081 (frames spread apart for cutting; earlier AS-024 had them in fitted positions). Designer replaces the rectangular cards with narrow
 frames whose exterior follows the opening at a 7.5 mm offset. All three must sit on
 the board simultaneously; digitally confirmed with AS-078 (earlier AS-021). The retained frames show
 only constellation name, MAIN STAR and four arrows. Actual reference-star names

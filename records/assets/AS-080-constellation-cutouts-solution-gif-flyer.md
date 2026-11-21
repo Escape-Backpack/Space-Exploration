@@ -7,7 +7,7 @@ kind: image
 for:
 tool: Python / Pillow / PyMuPDF / Shapely
 file: assets/constellation-solution-v2.gif
-links: [PZ-002, AS-078, AS-024]
+links: [PZ-002, AS-078, AS-081]
 superseded_by:
 tags: []
 ---
