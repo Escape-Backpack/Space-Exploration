@@ -8,7 +8,7 @@ for: PP-011
 tool: ReportLab / Shapely / Poppler
 file: assets/space-puzzle-01-designer-preparation-key.pdf
 links: []
-superseded_by:
+superseded_by: AS-079
 tags: []
 ---
 

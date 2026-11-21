@@ -15,7 +15,7 @@ file: assets/constellation-solution-v1.gif
 # Any related record IDs, e.g. [PZ-002, Q-004]
 links: [PZ-002, AS-021, AS-024, AS-023]
 # Set to an ID when this record is replaced. It then moves to the Parked tab.
-superseded_by:
+superseded_by: AS-080
 tags: []
 ---
 

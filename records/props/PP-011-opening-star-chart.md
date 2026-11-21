@@ -13,8 +13,14 @@ superseded_by:
 tags: []
 ---
 
-## Plain board and simultaneous frames - 2026-10-21
-Current player chart is AS-021: a standalone 8-inch square with dots, graticule
+## Current: flyer chart - 2026-11-21
+The player chart is now AS-078, a 5.5 x 8.5 inch flyer (standard size, PR-010). It replaces the
+8-inch square AS-021. Same plain face: dots, graticule and star-name labels only. The frames
+(AS-024) are unchanged and still fit together on it. AS-079 is the designer key.
+Digital checks pass; physical test still pending.
+
+## Earlier: plain 8 x 8 board - 2026-10-21 (superseded by AS-078)
+Player chart was AS-021: a standalone 8-inch square with dots, graticule
 and star-name labels only. All print/game instructions move off its face. It and
 AS-024 share one uniform enlargement, allowing simultaneous frame placement.
 AS-023 is the revised preparation/key. Earlier rectangular maps below are history.

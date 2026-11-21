@@ -26,7 +26,7 @@ tags: []
 
 ## Puzzle
 The first puzzle. No prerequisite (needs: []). Everything is in the start envelope:
-the square star chart (PP-011, AS-021), the three narrow constellation frames
+the 5.5 x 8.5 flyer star chart (PP-011, AS-078), the three narrow constellation frames
 (PP-012, AS-024) and the uncle's Handlee observation note (PP-010, AS-028).
 
 The note pairs each frame with a constellation and tells which night Bob observed it
